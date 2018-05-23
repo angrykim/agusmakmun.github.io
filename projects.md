@@ -4,4 +4,5 @@ title: Projects
 permalink: /projects/
 ---
 
-Few of my projects. Currently doing more in backend, focused in Python and Django.
+Risk & Payment(fraud) analyst. Key skills : Data analysis, Machine learning, Pattern recognition
+email: ksm28990@gmail.com
