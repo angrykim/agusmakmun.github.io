@@ -1,9 +1,10 @@
-title: Stack Problems
+title: Fraud analytics 
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
-disqus_shortname: stackproblems
+author: Seonmin Kim (Ted Kim)
+github: https://github.com/angrykim
+about: I am a fraud analyst & machine learning engineer. 
+       Using sets of data to find abuse, fraud, and money-laundering patterns    
+disqus_shortname: Fraud analytics 
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
@@ -16,16 +17,10 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/seonmin/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/angrykim"
 
 share:
   twitter_username: agusmakmun6
@@ -39,7 +34,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://angrykim.github.io/"
 baseurl: ""
 paginate: 20
 per_page: 20
