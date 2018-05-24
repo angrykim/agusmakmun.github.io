@@ -22,9 +22,9 @@ social:
     - icon: fa-github
       link: "https://github.com/angrykim"
 
-share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+#share:
+  #twitter_username: 
+  #fb_appid: 
 
 urls:
     - text: About Me
