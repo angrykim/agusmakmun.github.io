@@ -3,7 +3,9 @@ description: My Personal Stack Problems
 author: Seonmin Kim (Ted Kim)
 github: https://github.com/angrykim
 about: I am a fraud analyst & machine learning engineer. 
-       Using sets of data to find abuse, fraud, and money-laundering patterns    
+
+       Using sets of data to find abuse, fraud, and money-laundering patterns  
+       
 disqus_shortname: Fraud analytics 
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
