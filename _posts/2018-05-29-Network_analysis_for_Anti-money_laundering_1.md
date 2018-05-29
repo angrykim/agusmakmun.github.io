@@ -54,7 +54,7 @@ The one is to compute **"Average of LCC"** over all nodes in the graph, and the 
 
 ![screenshot_3](/static/img/latex_3.jpg)
 
-1) **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
++ **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
 ~~~python
 %matplotlib notebook
@@ -74,7 +74,7 @@ nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
 
-2) **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
++ **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
 
 ~~~python
 %matplotlib notebook
