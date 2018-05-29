@@ -5,6 +5,7 @@ date:   2018-05-29
 categories: [Network graph analysis]
 ---
 
+
 ## 1. [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
