@@ -15,7 +15,7 @@ Among them, Density refers to the **connection** between participants, which mea
 
 The total possible connections can be computed by 
 
-<img src="https://github.com/angrykim/angrykim.github.io/blob/master/static/img/latex_1.jpg" width="50%"></img>
+<div class="layer"><img src="https://github.com/angrykim/angrykim.github.io/blob/master/static/img/latex_1.jpg" width="50%"></img></div>
 
 
 it can determind how effective and valid the network is.
