@@ -8,6 +8,7 @@ categories: [Network graph analysis]
 
 ## 1. [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
 
+
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
 The most commonly used methods for analyzing network graphs are **Path length, (Global or Local)Clustering Coefficient, Efficiency** and so on.
@@ -73,3 +74,5 @@ G.add_edges_from([(0, 1),
 
 nx.transitivity(G) #return : 0.375
 ~~~
+
+
