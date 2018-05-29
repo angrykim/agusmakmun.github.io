@@ -19,13 +19,13 @@ Among them, Local Cluster Coefficient(LCC) refers to the **connection** between 
 
 so, **Local Clustering Coefficent(LCC)** can be computed by 
 
-![screenshot_1](/static/img/latex_2.jpg)
+![screenshot_2](/static/img/latex_2.jpg)
 
 With LCC of all nodes in the graph, We can measure **Global Clustering Coefficient(GCC)** by calculating average LCC
 
 How to measure clustering on the whole network? 
 
-1) Average LCC over all nodes in the graph using networkx in python 
++ Average LCC over all nodes in the graph using networkx in python 
 
 ~~~python
 %matplotlib notebook
@@ -45,11 +45,9 @@ nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
 
-2) [Transitivity](https://en.wikipedia.org/wiki/Clustering_coefficient) - Percentage of "open triads" that are triangles in a network
++ Transitivity - Percentage of "open triads" that are triangles in a network
 
-
-![screenshot_1](/static/img/latex_3.jpg)
-
+![screenshot_3](/static/img/latex_3.jpg)
 
 So let's talk about how we can calculate the density of the network.
 
