@@ -38,19 +38,19 @@ nx.draw(G)
 
 ![screenshot_0](/static/img/sample_data.jpg)
 
-**The total possible connections of each node** can be computed by 
+**Total possible connections of each node** can be computed by 
 
 ![screenshot_1](/static/img/latex_1.jpg)
 
-so, **Local Clustering Coefficent(LCC) of each node** can be computed by 
+**Local Clustering Coefficent(LCC) of each node** can be computed by 
 
 ![screenshot_2](/static/img/latex_2.jpg)
 
-In order to calculate **Global Clustering Coefficient(GCC)** in the network graph, We can compute average LCC of all nodes
+The reason for obtaining Local Clustering Coefficent (LCC) is to compute **Global Clustering Coefficient(GCC)**.
 
 There are acutally 2 ways to compute GCC.
 
-The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is **"Transitivity"** 
+The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is to calculate **"Transitivity"** 
 
 ![screenshot_3](/static/img/latex_3.jpg)
 
