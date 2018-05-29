@@ -5,6 +5,8 @@ date:   2018-05-29
 categories: [python, Network graph analysis]
 ---
 
+## 1. [Network graph analysis](https://en.wikipedia.org/wiki/Social_network_analysis)
+
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
 The most commonly used methods for analyzing network graphs are **'Path length', 'Clustering Coefficient', 'Efficiency', 'Density'** and so on.
@@ -12,7 +14,6 @@ The most commonly used methods for analyzing network graphs are **'Path length',
 Among them, Density refers to the **'connection'** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
 
 $ E=mc^2 $
-
 
 it can determind how effective and valid the network is.
 
