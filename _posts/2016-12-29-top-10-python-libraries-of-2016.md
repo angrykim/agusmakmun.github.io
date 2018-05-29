@@ -9,11 +9,9 @@ Before we talked about detection of money laundering using network graphs, Let's
 
 The most commonly used methods for analyzing network graphs are **"Path length", "Clustering Coefficient", "Efficiency", "Density"** and so on.
 
-Density refers to the "connections" between participants. Density is defined as the number of connections a participant has, divided by the total possible connections a participant could have. For example, if there are 20 people participating, each person could potentially connect to 19 other people. A density of 100% (19/19) is the greatest density in the system. A density of 5% indicates there is only 1 of 19 possible connections.
+Among them, Density refers to the **"connection"** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
 
-Among them, Density refers to the "connection" between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
-
-
+$ E=mc^2 $
 
 
 it can determind how effective and valid the network is.
