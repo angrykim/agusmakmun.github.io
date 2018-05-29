@@ -13,7 +13,7 @@ The most commonly used methods for analyzing network graphs are **Path length, C
 
 Among them, Density refers to the **connection** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
 
-$ \beta (x)=\int_{a}^{b}f(x,y)dy$
+$$ \beta (x)=\int_{a}^{b}f(x,y)dy$$
 
 it can determind how effective and valid the network is.
 
