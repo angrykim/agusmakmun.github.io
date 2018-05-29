@@ -1,10 +1,19 @@
 ---
 layout: post
-title:  "dd"
-date:   2016-12-29 18:34:10 +0700
-categories: [python]
+title:  "Network analysis for Anti-money laundering (AML) - (1) "
+date:   2018-05-29
+categories: [python, Network graph analysis]
 ---
 
+Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
+
+The most commonly used methods for analyzing network graphs are "Path length", "Clustering Coefficient", "Efficiency", "Density" and so on.
+
+Among them, The density of the netowrk can determind how effective and valid the network is.
+
+So let's talk about how we can calculate the density of the network.
+
+Global Clustering Coefficient (GCC) is 
 Last year, we did a recap with what we thought were the [best Python libraries of 2015](https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/), which was widely shared within the Python community (see post in[r/Python](https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/)). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the **open source community** this year.
 
 Again, we try to avoid most established choices such as Django, Flask, etc. that are kind of standard nowadays. Also, some of these libraries date prior to 2016, but either they had an explosion in popularity this year or we think they are great enough to deserve the spot. Here we go!
