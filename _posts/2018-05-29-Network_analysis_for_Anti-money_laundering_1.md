@@ -74,7 +74,7 @@ nx.average_clustering(G) #return : 0.4333333...4
 
 The ohter one is to calculate [Transitivity](https://www.sci.unich.it/~francesc/teaching/network/transitivity.html)
 
-![screenshot_3](/static/img/latex_3.jpg)
+![screenshot_3](/static/img/latex_3.png)
 
 
 + **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
