@@ -33,6 +33,7 @@ There are acutally 2 ways to compute GCC.
 
 The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is **"Transitivity"** 
 
+![screenshot_3](/static/img/latex_3.jpg)
 
 1) **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
@@ -55,8 +56,6 @@ nx.average_clustering(G) #return : 0.4333333...4
 
 
 2) **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
-
-![screenshot_3](/static/img/latex_3.jpg)
 
 So let's talk about how we can compute 'Transitivity' of the network using networkx in python.
 
