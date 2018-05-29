@@ -48,11 +48,9 @@ nx.draw(G)
 
 The reason for obtaining Local Clustering Coefficent (LCC) is to compute **Global Clustering Coefficient(GCC)**.
 
-There are acutally 2 ways to compute GCC.
+There are acutally 2 ways to compute Global Clustering Coefficient(GCC).
 
 The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is to calculate **"Transitivity"** 
-
-![screenshot_3](/static/img/latex_3.jpg)
 
 + **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
@@ -76,6 +74,8 @@ nx.average_clustering(G) #return : 0.4333333...4
 
 + **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
 
+![screenshot_3](/static/img/latex_3.jpg)
+
 ~~~python
 %matplotlib notebook
 import networkx as nx
@@ -93,4 +93,5 @@ G.add_edges_from([(0, 1),
 nx.transitivity(G) #return : 0.375
 ~~~
 
+Let's see why GCC is useful for further analysis 
 
