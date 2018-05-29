@@ -36,7 +36,7 @@ G.add_edges_from([(0, 1),
 nx.draw(G)
 ~~~
 
-![screenshot_0](/static/img/sample_data.jpg)
+![screenshot_0](/static/img/sample_data.jpg){: width="70%" height="70%"}
 
 **The total possible connections of each node** can be computed by 
 
