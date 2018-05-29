@@ -11,11 +11,29 @@ categories: [Network graph analysis]
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
-The most commonly used methods for analyzing network graphs are **Path length, (Global or Local)Clustering Coefficient, Efficiency** and so on.
+The most commonly used methods for analyzing network graphs are **Path length, (Global or Local) Clustering Coefficient.
 
-Among them, Local Cluster Coefficient(LCC) refers to the **connection** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
+Let's take a look at the basic concepts one by one.
+
+First, **Local Cluster Coefficient(LCC)** refers to the **connection** between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
 + **Sample data**
+~~~python
+%matplotlib notebook
+import networkx as nx
+import numpy as np
+import pandas as pd
+
+G = nx.Graph()
+
+G.add_edges_from([(0, 1),
+                  (0, 2),
+                  (0, 3),
+                  (0, 4),
+                  (2, 3)])
+
+nx.drawgraph(G)
+~~~
 
 ![screenshot_0](/static/img/sample_data.jpg)
 
