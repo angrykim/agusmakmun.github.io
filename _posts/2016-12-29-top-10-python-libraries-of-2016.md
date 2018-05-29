@@ -14,8 +14,9 @@ The most commonly used methods for analyzing network graphs are **Path length, (
 Among them, Local Cluster Coefficient(LCC) refers to the **connection** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
 
 **The total possible connections** can be computed by 
-
-<center><img src="https://github.com/angrykim/angrykim.github.io/blob/master/static/img/latex_1.jpg" width="60%"></img></center>
+{: refdef: style="text-align: center;"}
+<img src="https://github.com/angrykim/angrykim.github.io/blob/master/static/img/latex_1.jpg" width="60%"></img>
+{: refdef}
 
 so, **Local Clustering Coefficent(LCC)** can be computed by 
 
