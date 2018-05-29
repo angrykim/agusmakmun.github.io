@@ -15,7 +15,7 @@ Among them, Local Cluster Coefficient(LCC) refers to the **connection** between 
 
 + **Sample data**
 
-![screenshot_0](/static/img/sample_data.png)
+![screenshot_0](/static/img/sample_data.jpg)
 
 **The total possible connections** can be computed by 
 
