@@ -7,9 +7,16 @@ categories: [python, Network graph analysis]
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
-The most commonly used methods for analyzing network graphs are **"Path length", "Clustering Coefficient", "Efficiency", "Density" and so on.**
+The most commonly used methods for analyzing network graphs are **"Path length", "Clustering Coefficient", "Efficiency", "Density"** and so on.
 
-Among them, The density of the netowrk can determind how effective and valid the network is.
+Density refers to the "connections" between participants. Density is defined as the number of connections a participant has, divided by the total possible connections a participant could have. For example, if there are 20 people participating, each person could potentially connect to 19 other people. A density of 100% (19/19) is the greatest density in the system. A density of 5% indicates there is only 1 of 19 possible connections.
+
+Among them, Density refers to the "connection" between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
+
+
+
+
+it can determind how effective and valid the network is.
 
 So let's talk about how we can calculate the density of the network.
 
