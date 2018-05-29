@@ -27,7 +27,7 @@ How to measure clustering on the whole network?
 
 1. Average LCC over all nodes in the graph 
 
-{% highlight python %}
+~~~python
 %matplotlib notebook
 import networkx as nx
 import numpy as np
@@ -42,8 +42,7 @@ G.add_edges_from([(0, 1),
                   (2, 3)])
 
 nx.average_clustering(G) #return : 0.4333333...4
-{% endhighlight %}
-
+~~~
 
 2. 
 
