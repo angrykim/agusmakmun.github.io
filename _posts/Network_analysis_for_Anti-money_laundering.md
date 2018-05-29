@@ -52,7 +52,7 @@ G.add_edges_from([(0, 1),
 nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
-+ **Approach 2** : Transitivity - Percentage of "open triads" that are triangles in the network
++ **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
 
 ![screenshot_3](/static/img/latex_3.jpg)
 
