@@ -32,7 +32,7 @@ G.add_edges_from([(0, 1),
                   (0, 4),
                   (2, 3)])
 
-nx.drawgraph(G)
+nx.draw(G)
 ~~~
 
 ![screenshot_0](/static/img/sample_data.jpg)
