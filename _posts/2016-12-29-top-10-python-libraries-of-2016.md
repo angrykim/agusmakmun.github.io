@@ -19,7 +19,7 @@ Among them, Local Cluster Coefficient(LCC) refers to the **connection** between 
 
 so, **Local Clustering Coefficent(LCC)** can be computed by 
 
-<center><img src="https://github.com/angrykim/angrykim.github.io/blob/master/static/img/latex_2.jpg" width="60%"></img></center>
+<center><img src="angrykim.github.io/static/img/latex_2.jpg" width="60%"></img></center>
 
 it can determind how effective and valid the network is.
 
