@@ -13,6 +13,10 @@ The most commonly used methods for analyzing network graphs are **Path length, (
 
 Among them, Local Cluster Coefficient(LCC) refers to the **connection** between participants, which means it is defined as the number of connections a participant has, divided by the total possible connections a participant could have. 
 
++ **Sample data**
+
+![screenshot_0](/static/img/sample_data.png)
+
 **The total possible connections** can be computed by 
 
 ![screenshot_1](/static/img/latex_1.jpg)
@@ -25,7 +29,7 @@ With LCC of all nodes in the graph, We can measure **Global Clustering Coefficie
 
 How to measure clustering on the whole network? 
 
-+ Average LCC over all nodes in the graph using networkx in python 
+  + Approach 1 : Average LCC over all nodes in the graph using networkx in python 
 
 ~~~python
 %matplotlib notebook
@@ -44,12 +48,28 @@ G.add_edges_from([(0, 1),
 nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
-
-+ Transitivity - Percentage of "open triads" that are triangles in a network
+  + Approach 2 : Transitivity - Percentage of "open triads" that are triangles in a network
 
 ![screenshot_3](/static/img/latex_3.jpg)
 
 So let's talk about how we can calculate the density of the network.
+
+~~~python
+%matplotlib notebook
+import networkx as nx
+import numpy as np
+import pandas as pd
+
+G = nx.Graph()
+
+G.add_edges_from([(0, 1),
+                  (0, 2),
+                  (0, 3),
+                  (0, 4),
+                  (2, 3)])
+
+nx.transitivity(G) #return : 0.4333333...4
+~~~
 
 Global Clustering Coefficient (GCC) is 
 Last year, we did a recap with what we thought were the [best Python libraries of 2015](https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/), which was widely shared within the Python community (see post in[r/Python](https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/)). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the **open source community** this year.
