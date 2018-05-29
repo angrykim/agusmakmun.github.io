@@ -31,7 +31,7 @@ In order to calculate **Global Clustering Coefficient(GCC)** in the network grap
 
 There are acutally 2 ways to compute GCC.
 
-The one is to compute **average of LCC** over all nodes in the graph, and the ohter one is **Transitivity** 
+The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is **"Transitivity"** 
 
 + **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
