@@ -25,7 +25,7 @@ With LCC of all nodes in the graph, We can measure **Global Clustering Coefficie
 
 How to measure clustering on the whole network? 
 
-1. Average LCC over all nodes in the graph 
+1) Average LCC over all nodes in the graph using networkx in python 
 
 ~~~python
 %matplotlib notebook
@@ -44,7 +44,9 @@ G.add_edges_from([(0, 1),
 nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
-2. 
+2) [Transitivity](https://en.wikipedia.org/wiki/Clustering_coefficient)
+
+![screenshot_1](/static/img/latex_3.jpg)
 
 So let's talk about how we can calculate the density of the network.
 
