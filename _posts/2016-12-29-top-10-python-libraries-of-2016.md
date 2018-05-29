@@ -44,9 +44,12 @@ G.add_edges_from([(0, 1),
 nx.average_clustering(G) #return : 0.4333333...4
 ~~~
 
-2) [Transitivity](https://en.wikipedia.org/wiki/Clustering_coefficient)
+
+2) [Transitivity](https://en.wikipedia.org/wiki/Clustering_coefficient) - Percentage of "open triads" that are triangles in a network
+
 
 ![screenshot_1](/static/img/latex_3.jpg)
+
 
 So let's talk about how we can calculate the density of the network.
 
