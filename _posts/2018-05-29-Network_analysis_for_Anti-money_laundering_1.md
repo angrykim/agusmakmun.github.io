@@ -18,6 +18,7 @@ Let's take a look at the basic concepts one by one.
 First, **Local Cluster Coefficient(LCC)** refers to the **connection** between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
 + **Sample data**
+
 ~~~python
 %matplotlib notebook
 import networkx as nx
