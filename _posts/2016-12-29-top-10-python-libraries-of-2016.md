@@ -21,7 +21,31 @@ so, **Local Clustering Coefficent(LCC)** can be computed by
 
 ![screenshot_1](/static/img/latex_2.jpg)
 
-it can determind how effective and valid the network is.
+With LCC of all nodes in the graph, We can measure **Global Clustering Coefficient(GCC)** by calculating average LCC
+
+How to measure clustering on the whole network? 
+
+1. Average LCC over all nodes in the graph 
+
+{% highlight python %}
+%matplotlib notebook
+import networkx as nx
+import numpy as np
+import pandas as pd
+
+G = nx.Graph()
+
+G.add_edges_from([(0, 1),
+                  (0, 2),
+                  (0, 3),
+                  (0, 4),
+                  (2, 3)])
+
+nx.average_clustering(G) #return : 0.4333333...4
+{% endhighlight %}
+
+
+2. 
 
 So let's talk about how we can calculate the density of the network.
 
