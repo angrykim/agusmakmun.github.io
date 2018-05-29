@@ -19,17 +19,19 @@ Among them, Local Cluster Coefficient(LCC) refers to the **connection** between 
 
 ![screenshot_0](/static/img/sample_data.jpg)
 
-**The total possible connections** can be computed by 
+**The total possible connections of each node** can be computed by 
 
 ![screenshot_1](/static/img/latex_1.jpg)
 
-so, **Local Clustering Coefficent(LCC)** can be computed by 
+so, **Local Clustering Coefficent(LCC) of each node** can be computed by 
 
 ![screenshot_2](/static/img/latex_2.jpg)
 
-With LCC of all nodes in the graph, We can measure **Global Clustering Coefficient(GCC)** by calculating average LCC
+In order to calculate **Global Clustering Coefficient(GCC)** in the network graph, We can compute average LCC of all nodes
 
-How to measure clustering on the whole network? 
+There are acutally 2 ways to compute GCC.
+
+The one is to compute **average of LCC** over all nodes in the graph, and the ohter one is **Transitivity** 
 
 + **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
