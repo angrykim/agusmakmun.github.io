@@ -36,15 +36,15 @@ G.add_edges_from([(0, 1),
 nx.draw(G)
 ~~~
 
-![screenshot_0](/static/img/sample_data.jpg){: width="70%" height="70%"}
+![screenshot_0](/static/img/sample_data.jpg){: width="100%" height="100%"}
 
 **The total possible connections of each node** can be computed by 
 
-![screenshot_1](/static/img/latex_1.jpg)
+![screenshot_1](/static/img/latex_1.jpg){: width="50%" height="50%"}
 
 so, **Local Clustering Coefficent(LCC) of each node** can be computed by 
 
-![screenshot_2](/static/img/latex_2.jpg){: width="70%" height="70%"}
+![screenshot_2](/static/img/latex_2.jpg){: width="50%" height="50%"}
 
 In order to calculate **Global Clustering Coefficient(GCC)** in the network graph, We can compute average LCC of all nodes
 
@@ -52,7 +52,7 @@ There are acutally 2 ways to compute GCC.
 
 The one is to compute **"Average of LCC"** over all nodes in the graph, and the ohter one is **"Transitivity"** 
 
-![screenshot_3](/static/img/latex_3.jpg){: width="70%" height="70%"}
+![screenshot_3](/static/img/latex_3.jpg){: width="50%" height="50%"}
 
 1) **Approach 1** : Average LCC over all nodes in the graph using networkx in python 
 
