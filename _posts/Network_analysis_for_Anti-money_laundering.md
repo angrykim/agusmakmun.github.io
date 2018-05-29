@@ -2,12 +2,14 @@
 layout: post
 title:  "Network analysis for Anti-money laundering (AML) - (1)"
 date:   2018-05-29
-categories: [python, Network graph analysis]
+categories: [Network graph analysis]
 ---
 
 ## 1. [Network graph analysis](https://en.wikipedia.org/wiki/Social_network_analysis)
 
-Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
+Before we talked about detection of money laundering using network graphs, 
+
+Let's take a moment to learn more about network graph analysis as a whole. 
 
 The most commonly used methods for analyzing network graphs are **Path length, (Global or Local)Clustering Coefficient, Efficiency** and so on.
 
