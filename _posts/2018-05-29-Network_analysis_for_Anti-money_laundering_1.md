@@ -49,7 +49,7 @@ nx.draw(G)
 The reason for obtaining Local Clustering Coefficent (LCC) is to compute **Global Clustering Coefficient(GCC)**.
 
 
-There are acutally 2 ways to compute Global Clustering Coefficient(GCC).
+There are several ways to compute Global Clustering Coefficient(GCC).
 
 The one is to compute **"Average of LCC"** over all nodes in the graph, and this can be easily done with networkx.
 
@@ -96,5 +96,5 @@ G.add_edges_from([(0, 1),
 nx.transitivity(G) #return : 0.375
 ~~~
 
-Let's see why GCC is useful for further analysis 
+Let's see why Global Clustering Coefficient(GCC) is useful for further analysis 
 
