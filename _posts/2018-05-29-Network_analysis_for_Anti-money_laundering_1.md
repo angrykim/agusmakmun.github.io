@@ -106,10 +106,4 @@ nx.transitivity(G) #return : 0.375
   - The global clustering coefficient is 3/8 = **0.375**
 
 
-### Differences in Clustering Measures
-<br>
-
-- The avarage clustering is **0.43** while the transitivity is **0.375**.
-- Accourding to network shapes, the measurements above can differ from each other 
-   (To figure out the shpe of abnormal networks, I use both) 
 
