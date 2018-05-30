@@ -5,7 +5,7 @@ date:   2018-05-30
 categories: [Network graph analysis]
 ---
 
-+ # [Network graph analysis - 2](https://en.wikipedia.org/wiki/Social_network_analysis)
+# [Network graph analysis - 2](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 Previous posts did not mention **Directed network**. However, in general, when you detect fraud or abuse events in finance, We use a directed network. This is very useful for understanding the flow of money and others
 
