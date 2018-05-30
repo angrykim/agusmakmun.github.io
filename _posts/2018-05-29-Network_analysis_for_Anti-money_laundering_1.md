@@ -6,7 +6,7 @@ categories: [Network graph analysis]
 ---
 
 
-## 1. [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
+# 1. [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
@@ -104,7 +104,8 @@ The global clustering coefficient is 3/8 = 0.375
    - node 4 : 0
   - Secound count how many triangles there are in the network: only one 
 
-**Differences in Clustering Measures**
+### Differences in Clustering Measures
+
 - The avarage clustering is **0.43** while the transitivity is **0.375**.
 - Accourding to network shapes, the measurements above can differ from each other 
    (To figure out the shpe of abnormal networks, I use both) 
