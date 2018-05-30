@@ -1,11 +1,17 @@
 ---
 layout: post
-title:  "get Month Name [CF]"
+title:  "Network analysis for Anti-money laundering (AML) - (2)"
 date:   2018-05-30
 categories: [Network graph analysis]
 ---
 
-Map the given integer to a month.
+
+
+Previous posts did not mention **Directed network**. However, in general, when you detect fraud or abuse events in finance, We use a directed network. This is very useful for understanding the flow of money and others
+
+So today, I'm goiing to talk about HITS algorithm and the way how we can calculate in a directed network.
+
+More over, You will see why i put this topic here and how do i nomally use it for detecting abuse events in finance.
 
 **Example:**
 
