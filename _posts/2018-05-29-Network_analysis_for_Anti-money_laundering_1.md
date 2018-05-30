@@ -95,7 +95,7 @@ G.add_edges_from([(0, 1),
 
 nx.transitivity(G) #return : 0.375
 ~~~
-The global clustering coefficient is 3/8 = 0.375
+
  - First cofunt how many configurations of the form in the network 
    - node 0 : 6
    - node 1 : 0
@@ -103,10 +103,11 @@ The global clustering coefficient is 3/8 = 0.375
    - node 3 : 1
    - node 4 : 0
   - Secound count how many triangles there are in the network: only one 
+  - The global clustering coefficient is 3/8 = **0.375**
 
 
 ### Differences in Clustering Measures
-
+<br>
 
 - The avarage clustering is **0.43** while the transitivity is **0.375**.
 - Accourding to network shapes, the measurements above can differ from each other 
