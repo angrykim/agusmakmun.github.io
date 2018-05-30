@@ -105,5 +105,7 @@ nx.transitivity(G) #return : 0.375
   - Secound count how many triangles there are in the network: only one 
   - The global clustering coefficient is 3/8 = **0.375**
 
-
-
+     
+   
+   
+        
