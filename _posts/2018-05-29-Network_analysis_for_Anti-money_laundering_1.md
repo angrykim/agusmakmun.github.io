@@ -15,7 +15,7 @@ The most commonly used methods for analyzing network graphs are **Path length, G
 
 Let's take a look at the basic concepts one by one.
 
-First, **Local Clustering Coefficient(LCC)** refers to the **connection** between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
+First, **Local Clustering Coefficient(LCC)** refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
 + **Sample data**
 
@@ -51,9 +51,9 @@ The reason for obtaining Local Clustering Coefficent (LCC) is to compute **Globa
 
 There are several ways to compute Global Clustering Coefficient(GCC).
 
-The one is to compute **"Average of LCC"** over all nodes in the graph, and this can be easily done with networkx.
+The one is to compute `Average of LCC` over all nodes in the graph, and this can be easily done with networkx.
 
-+ **Approach 1** : Average LCC over all nodes in the graph using networkx in python.
++ `Approach 1` : Average LCC over all nodes in the graph using networkx in python.
 
 ~~~python
 %matplotlib notebook
@@ -77,7 +77,7 @@ The ohter one is to calculate [Transitivity](https://www.sci.unich.it/~francesc/
 ![screenshot_3](/static/img/latex_3.png)
 
 
-+ **Approach 2** : Transitivity (Percentage of "open triads" that are triangles in the network)
++ `Approach 2` : Transitivity (Percentage of "open triads" that are triangles in the network)
 
 ~~~python
 %matplotlib notebook
