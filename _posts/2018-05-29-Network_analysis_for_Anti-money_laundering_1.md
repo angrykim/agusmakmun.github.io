@@ -11,11 +11,11 @@ categories: [Network graph analysis]
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
-The most commonly used methods for analyzing network graphs are **Path length, Global Clustering Coefficient, and Local Clustering Coefficient.**
+The most commonly used methods for analyzing network graphs are `Path lengh`, `Global Clustering Coefficient(GCC)` and `Local Clustering Coefficient(LCC).`
 
 Let's take a look at the basic concepts one by one.
 
-First, **Local Clustering Coefficient(LCC)** refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
+First, `Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
 + **Sample data**
 
@@ -46,7 +46,7 @@ nx.draw_networkx(G)
 
 ![screenshot_2](/static/img/latex_2.jpg)
 
-The reason for obtaining Local Clustering Coefficent (LCC) is to compute **Global Clustering Coefficient(GCC)**.
+The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC).`
 
 
 There are several ways to compute Global Clustering Coefficient(GCC).
@@ -103,7 +103,7 @@ nx.transitivity(G) #return : 0.375
    - node 3 : 1
    - node 4 : 0
   - Secound count how many triangles there are in the network: only one 
-  - The global clustering coefficient is 3/8 = **0.375**
+  - The global clustering coefficient is 3/8 = `0.375`
 
      
    
