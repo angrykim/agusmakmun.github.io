@@ -7,20 +7,26 @@ categories: [Network graph analysis]
 
 # [Network graph analysis - 2](https://en.wikipedia.org/wiki/Social_network_analysis)
 
-Previous posts did not mention **Directed network**. However, in general, when you detect fraud or abuse events in finance, We use a directed network. This is very useful for understanding the flow of money and others
+The previous post did not mention **Directed network**. However, in general, when you detect fraud or abuse events in finance, We use a directed network. This is very useful for understanding the flow of money and others
 
-So today, I want to talk about a little difficult topic of directed network graph.
+So today, I want to talk about a little difficult topic of directed network graph with a really useful algorithm.
 
-Acutally, I'm goiing to talk about `HITS algorithms`. it is nomally used in Network graph analysis for the purpose of 
+Acutally, I'm goiing to talk about `HITS(Hypertext induced Topic Selection) algorithms`. it is nomally used in Network graph analysis for the purpose of 
 
-**"Extracting important web pages from link structure"** 
+**"Extracting important web pages from directed link structure"**. 
+
+It is develped in the context of how a search engine might go about finding importatnt web pages(central nodes).
+
+In other words, with HITS algorithm, we can find central nodes over all nodes in the network. 
 
 Once you understand `HITS algorithms`, You will see how we can apply it to financial data set to detect abuse, fraud, and others. 
 
-**Example:**
+Let's check the terms first 
 
-* For `mo = 1`, the output should be `getMonthName(mo) = "Jan"`,
-* For `mo = 0`, the output should be `getMonthName(mo) = "invalid month"`.
+**Hubs and Authorities:**
+
+*  `A good hub(out-degree)` represented a page(node) that pointed to **many other pages(nodes).**
+*  `A good authority(in-degree)` represented a page(node) that was linked by **many different hubs.**
 
 **Input/Output**
 
