@@ -9,9 +9,13 @@ categories: [Network graph analysis]
 
 Previous posts did not mention **Directed network**. However, in general, when you detect fraud or abuse events in finance, We use a directed network. This is very useful for understanding the flow of money and others
 
-So today, I'm goiing to talk about HITS algorithm and the way how we can calculate in a directed network.
+So today, I want to talk about a little difficult topic of directed network graph.
 
-More over, You will see why i put this topic here and how do i nomally use it for detecting abuse events in finance.
+Acutally, I'm goiing to talk about `HITS algorithms`. it is nomally used in Network graph analysis for the purpose of 
+
+**"Extracting important web pages from link structure"** 
+
+Once you understand `HITS algorithms`, You will see how we can apply it to financial data set to detect abuse, fraud, and others. 
 
 **Example:**
 
