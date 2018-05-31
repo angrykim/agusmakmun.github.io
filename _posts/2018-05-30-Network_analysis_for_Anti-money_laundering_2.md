@@ -15,7 +15,7 @@ This is very useful for understanding **the flow of money** and others
 
 So today, I want to talk about a little difficult topic of directed network graph with a really useful algorithm.
 
-Acutally, I'm goiing to talk about `HITS(Hypertext induced Topic Selection) algorithms`. 
+Acutally, I'm goiing to talk about `HITS(Hypertext induced Topic Selection) algorithm`. 
 
 it is nomally used in Network graph analysis for the purpose of 
 
