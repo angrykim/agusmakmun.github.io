@@ -11,7 +11,7 @@ categories: [Network graph analysis]
 
 Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
-The most commonly used methods for analyzing network graphs are **Path lengh, Global Clustering Coefficient(GCC) and Local Clustering Coefficient(LCC).**
+The most commonly used methods for analyzing network graphs are **Path lengh**, **Global Clustering Coefficient(GCC)** and **Local Clustering Coefficient(LCC).**
 
 Let's take a look at the basic concepts one by one.
 
