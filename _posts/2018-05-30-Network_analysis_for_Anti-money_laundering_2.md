@@ -25,7 +25,7 @@ It is develped in the context of how a search engine might go about finding impo
 
 In other words, with HITS algorithm, we can find central nodes over all nodes in the network. 
 
-Once you understand `HITS algorithms`, You will see how we can apply it to financial data set to detect abuse, fraud, and others. 
+Once you understand `HITS algorithm`, You will see how we can apply it to financial data set to detect abuse, fraud, and others. 
 
 Let's check the terms first 
 
