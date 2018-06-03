@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Network analysis for Anti-money laundering (AML) - (1)"
+title:  "Network analysis for financial industry - (1)"
 date:   2018-05-29
 categories: [Network graph analysis]
 ---
@@ -9,7 +9,7 @@ categories: [Network graph analysis]
 # [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 
-Before we talked about detection of money laundering using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
+Before we talked about detection of abuse events in Finance using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
 
 The most commonly used methods for analyzing network graphs are **Path lengh**, **Global Clustering Coefficient(GCC)** and **Local Clustering Coefficient(LCC).**
 
