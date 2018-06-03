@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Network analysis for Anti-money laundering (AML) - (2)"
+title:  "Network analysis for financial industry - (2)"
 date:   2018-05-30
 categories: [Network graph analysis]
 ---
