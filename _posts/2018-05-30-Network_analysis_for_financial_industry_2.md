@@ -113,8 +113,8 @@ Node 4:  (1/3)X(1/10)+1/5= 7/30
 
 Node 5:   1/5
 
-No matter how large the value of K is, the PageRank value of the Node has a unique value in the network.
-
-So far, We are studying PageRank and the Next post is about HITS algorithm
+* No matter how large the value of K is, the **Page Rank** value of the Node has a unique value in the network.
+* So with **Page Rank**, We can comutpe which is the most important node over all nodes in a network. 
+* So far, we studied how we could compute a basic **Page Rank** 
 
 
