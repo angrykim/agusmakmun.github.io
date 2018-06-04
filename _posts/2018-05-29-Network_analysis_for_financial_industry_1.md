@@ -9,9 +9,9 @@ categories: [Network graph analysis]
 # [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 
-Before we talked about detection of abuse events in Finance using network graphs, Let's take a moment to learn more about network graph analysis as a whole. 
+Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
 
-The most commonly used methods for analyzing network graphs are **Path lengh**, **Global Clustering Coefficient(GCC)** and **Local Clustering Coefficient(LCC).**
+The most commonly used methods for analyzing network graph are **Path lengh**,**centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC).** and so on.
 
 Let's take a look at the basic concepts one by one.
 
@@ -48,10 +48,15 @@ nx.draw_networkx(G)
 
 The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC).`
 
+What is **Global Clustering Coefficient?**
 
-There are several ways to compute Global Clustering Coefficient(GCC).
+It is known that the connections between nodes in the real network have relatively high density of connections, which means nodes in a real network tend to cluster well compared to a random network.
 
-The one is to compute `Average of LCC` over all nodes in the graph, and this can be easily done with networkx.
+In the graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
+
+Let's compute `Global Clustering Coefficient(GCC)`.
+
+The first method that we can use is `Average of LCC` over all nodes in a graph, and this can be easily done with networkx.
 
 + `Approach 1` : Average LCC over all nodes in the graph using networkx in python.
 
@@ -78,6 +83,8 @@ The ohter one is to calculate [Transitivity](https://www.sci.unich.it/~francesc/
 
 
 + `Approach 2` : Transitivity (Percentage of "open triads" that are triangles in the network)
+
+![screenshot_4](/static/img/triangles.jpg)
 
 ~~~python
 %matplotlib notebook
