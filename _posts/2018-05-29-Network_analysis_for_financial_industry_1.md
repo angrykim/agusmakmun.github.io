@@ -13,9 +13,11 @@ Before we talked about detection of abuse events in Finance using network graph 
 
 The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC).** and so on.
 
-Let's take a look at the basic concepts one by one.
+I will not explain everything above, but you can get the information you need through Google.
 
-First, `Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
+I will be able to explain just one of these, which is **Local & Global Clustering Coefficient**.
+
+`Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
 + **Sample data**
 
