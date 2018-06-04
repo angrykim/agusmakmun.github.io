@@ -97,7 +97,6 @@ Let's compute this sample data set(K=2).
 
 | <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> |  <center>Node 5</center> |
 |:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
-|**init** | <center> 1/5 </center> | <center> 1/5 </center> |<center> 1/5 </center> | <center> 1/5 </center>  | <center> 1/5 </center> |<center> 1/5 </center> |
 |**K=1** | <center> 1/5 </center> | <center> 1/20 </center> |<center> 1/20 </center> | <center> 1/20 </center>  | <center> 1/20 </center> |<center> 1/5 </center> |
 |**K=2** | <center> 1/10  </center> | <center> 13/30   </center> |<center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> |<center> 1/5 </center> |
 
