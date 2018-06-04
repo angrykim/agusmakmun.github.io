@@ -32,9 +32,9 @@ So the above equiation shows how to compute PageRank of a node
 
 3 important concepts of PageRank (To become an important node...)
 
-*  `There are many other nodes that tell me I'm important.` --> _The number of PR(Ti)_
-*  `It is better if the node referred to me as an important node is an important node in a network` --> _Hight PR(Ti)_
-*  `It would be good if the node that referred to me as an important node is only connected to an important node in a network` --> _Low C(Ti)_
+*  There are many other nodes that tell me I'm important. --> _The number of PR(Ti)_
+*  It is better if the node referred to me as an important node is an important node in a network --> _Hight PR(Ti)_
+*  It would be good if the node that referred to me as an important node is only connected to an important node in a network --> _Low C(Ti)_
 
 ## Page Rank algorithm:
 
