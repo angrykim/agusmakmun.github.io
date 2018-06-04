@@ -26,52 +26,95 @@ Let's check the basic concept of `Page Rank algorithm`.
 
 ![screenshot_1](/static/img/page_rank.jpg)
 
+So the above equiation shows how to compute PageRank of a node 
+
 ![screenshot_2](/static/img/page_rank_2.jpg)
 
 3 important concepts of PageRank (To become an important node...)
-*  `There are many other nodes that tell me I'm important.`  
-   --> _The number of PR(Ti)_
-*  `It is better if the node referred to me as an important node is an important node in a network` 
-   --> _Hight PR(Ti) value_
-*  `It would be good if the node that referred to me as an important node is only connected to an important node in a network` 
-   --> _Low C(Ti) value_
+
+*  `There are many other nodes that tell me I'm important.` --> _The number of PR(Ti)_
+*  `It is better if the node referred to me as an important node is an important node in a network` --> _Hight PR(Ti)_
+*  `It would be good if the node that referred to me as an important node is only connected to an important node in a network` --> _Low C(Ti)_
 
 ## Page Rank algorithm:
 
-*  `Assign all nodes a PageRank of 1/n` 
-*  `A good authority(in-degree)` represented a page(node) that was linked by **many different hubs.**
+*  `Assign all nodes a PageRank of 1/n`.
+*  `Each node gives an equal share of its current PageRank to all the nodes it links to`. 
 
-**Input/Output**
++ **Sample data**
 
-* [time limit] 4000ms (py)
-* [input] integer mo (A non-negative integer).
-* **Constraints:** `0 ≤ mo ≤ 15`.
-* **[output] string**
+~~~python
+import networkx as nx
+import numpy as np
+import pandas as pd
+%matplotlib notebook
 
-A `3`-letter abbreviation of month number `mo` or `"invalid month"` if the month doesn't exist.
+options = {
+    'node_color': 'red',
+    'node_size': 1000,
+    'width': 1,
+}
 
-Here are abbreviations of all months:
+# Instantiate the graph
+G = nx.DiGraph(directed=True)
+# add node/edge pairs
+G.add_nodes_from([0,1,2,3,4,5])
+G.add_edges_from([(0, 1),
+                  (1, 2),
+                  (1, 3),
+                  (2, 1),
+                  (3, 0), 
+                  (3, 2),
+                  (3, 2),
+                  (4, 0),
+                  (5, 4)])
 
-**My Solution:**
+# draw the network G
+nx.draw_networkx(G, arrows=True, **options)
+~~~
 
-```python
-def getMonthName(mo):
-    months = {
-        1: "Jan", 2: "Feb", 3: "Mar", 4:"Apr", 
-        5: "May", 6: "Jun", 7: "Jul", 8:"Aug", 
-        9: "Sep", 10: "Oct", 11: "Nov", 12: "Dec"
-    }
-    if mo in months.keys():
-        return months.get(mo)
-    return "invalid month"
-```
+![screenshot_3](/static/img/Digraph.jpg)
 
-**Result Tests**:
+Let's compute this sample data set(K=2). 
 
-```python
->>> getMonthName(1)
-"Jan"
->>> getMonthName(0)
-"invalid month"
->>>
-```
+|  <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> | <center>Node 5</center> |
+|:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
+|**init** | <center> 1/5 </center> | <center> 1/5 </center> |<center> 1/5 </center> | <center> 1/5 </center>  | <center> 1/5 </center> |<center> 1/5 </center> |
+|**K=1** | <center> 4/15 </center> | <center> 2/5 </center> |<center> 1/6 </center> | <center> 11/10 </center>  | <center> 4/15 </center> |<center> 1/5 </center> |
+
+Node 0:  (1/3)X(1/5)+1/5 = 4/15 
+
+Node 1:  (1/5)+(1/5) = 2/5 
+
+Node 2:  (1/3)X(1/5)+(1/2)X(1/5) = 1/6
+
+Node 3:  (1/2)X(1/5) = 1/10
+
+Node 4:  (1/3)X(1/5)+1/5 = 4/15
+
+Node 5:   1/5
+
+
+| <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> |  <center>Node 5</center> |
+|:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
+|**init** | <center> 1/5 </center> | <center> 1/5 </center> |<center> 1/5 </center> | <center> 1/5 </center>  | <center> 1/5 </center> |<center> 1/5 </center> |
+|**K=1** | <center> 1/5 </center> | <center> 1/20 </center> |<center> 1/20 </center> | <center> 1/20 </center>  | <center> 1/20 </center> |<center> 1/5 </center> |
+|**K=2** | <center> 1/10  </center> | <center> 13/30   </center> |<center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> |<center> 1/5 </center> |
+
+Node 0:  (1/3)X(1/10)+1/5 = 1/10 
+
+Node 1:  (1/6)+(4/15) = 13/30 
+
+Node 2:  (1/3)X(1/10)+(1/2)X(2/5)= 7/30
+
+Node 3:  (1/2)X(2/5) = 2/10 = 1/5
+
+Node 4:  (1/3)X(1/10)+1/5= 7/30
+
+Node 5:   1/5
+
+No matter how large the value of K is, the PageRank value of the Node has a unique value in the network.
+
+So far, We are studying PageRank and the Next post is about HITS algorithm
+
+
