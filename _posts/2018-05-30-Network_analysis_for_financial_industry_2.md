@@ -9,9 +9,8 @@ categories: [Network graph analysis]
 
 The previous post did not mention **Directed network**. 
 
-However, in general, when you detect fraud or abuse events in finance, Directed network graph is a common method to use for network graph analysis 
-
-This is very useful for understanding **the flow of money** and others
+However, in general, when you detect fraud or abuse events in finance, It is a common method to use for direct network graph.  
+(It is very useful for understanding **the flow of money** and others)
 
 So today, I want to talk about a little difficult topic of directed network graph with a really useful algorithm.
 
