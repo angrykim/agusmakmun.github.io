@@ -11,7 +11,7 @@ categories: [Network graph analysis]
 
 Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
 
-The most commonly used methods for analyzing network graph are **Path lengh**,**centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC).** and so on.
+The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC).** and so on.
 
 Let's take a look at the basic concepts one by one.
 
@@ -46,17 +46,15 @@ nx.draw_networkx(G)
 
 ![screenshot_2](/static/img/latex_2.jpg)
 
-The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC).`
+The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC)`.
 
-What is **Global Clustering Coefficient?**
+What is `Global Clustering Coefficient(GCC)`?
 
 It is known that the connections between nodes in the real network have relatively high density of connections, which means nodes in a real network tend to cluster well compared to a random network.
 
-In the graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
+So, In the graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
 
-Let's compute `Global Clustering Coefficient(GCC)`.
-
-The first method that we can use is `Average of LCC` over all nodes in a graph, and this can be easily done with networkx.
+The first method that we can compute GCC is `Average of LCC` over all nodes in a graph, and this can be easily done with networkx.
 
 + `Approach 1` : Average LCC over all nodes in the graph using networkx in python.
 
