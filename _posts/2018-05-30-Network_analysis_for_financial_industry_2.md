@@ -16,7 +16,9 @@ It is a common method to use for direct network graph.
 
 So today, I want to talk about how to measure the importance of the centrality of a node in a directed netowrk. 
 
-Acutally, I'm goiing to talk about `Page Rank algorithm`. 
+Acutally, I'm goiing to talk about **Page Rank**. 
+
+What is `Page Rank algorithm`?
 
 It was developed by the Google founders when they were thinking about how to measure the importance of webpages using the hyperlink network structure of the web.
 
@@ -30,11 +32,11 @@ So the above equiation shows how to compute PageRank of a node
 
 ![screenshot_2](/static/img/page_rank_2.jpg)
 
-3 important concepts of PageRank (To become an important node...)
+3 important concepts of PageRank (To become a good person...)
 
-*  There are many other nodes that tell me I'm important. --> _The number of PR(Ti)_
-*  It is better if the node referred to me as an important node is an important node in a network --> _Hight PR(Ti)_
-*  It would be good if the node that referred to me as an important node is only connected to an important node in a network --> _Low C(Ti)_
+*  There are many people that refferred to me as a good person  --> _A larget number of PR(Ti)_
+*  It is much better if the person referred to me as a good person is also a good person in a network --> _Hight PR(Ti)_
+*  It would be good if the person that referred to me as a good person is not pointed to many people as good in a network --> _Low C(Ti)_
 
 ## Page Rank algorithm:
 
@@ -120,8 +122,6 @@ Let's compute this sample data set(K=2).
 No matter how large the value of K is, the **Page Rank** value of the Node has a unique value in the network.
 
 So with **Page Rank**, We can comutpe which is the most important node over all nodes in a network. 
-
-So far, we studied how we could compute a basic **Page Rank**.
 
 
 
