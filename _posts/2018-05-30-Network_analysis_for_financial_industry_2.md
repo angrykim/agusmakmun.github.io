@@ -80,42 +80,42 @@ nx.draw_networkx(G, arrows=True, **options)
 Let's compute this sample data set(K=2). 
 
 |  <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> | <center>Node 5</center> |
-|:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |**init** | <center> 1/5 </center> | <center> 1/5 </center> | <center> 1/5 </center> | <center> 1/5 </center>  | <center> 1/5 </center> | <center> 1/5 </center> |
 |**K=1** | <center> 4/15 </center> | <center> 2/5 </center> | <center> 1/6 </center> | <center> 1/10 </center>  | <center> 4/15 </center> | <center> 1/5 </center> |
 
-* Node 0:  (1/3)X(1/5)+1/5 = 4/15 
+* **Node 0**:  (1/3)X(1/5)+1/5 = 4/15 
 
-* Node 1:  (1/5)+(1/5) = 2/5 
+* **Node 1**:  (1/5)+(1/5) = 2/5 
 
-* Node 2:  (1/3)X(1/5)+(1/2)X(1/5) = 1/6
+* **Node 2**:  (1/3)X(1/5)+(1/2)X(1/5) = 1/6
 
-* Node 3:  (1/2)X(1/5) = 1/10
+* **Node 3**:  (1/2)X(1/5) = 1/10
 
-* Node 4:  (1/3)X(1/5)+1/5 = 4/15
+* **Node 4**:  (1/3)X(1/5)+1/5 = 4/15
 
-* Node 5:   1/5
+* **Node 5**:   1/5
 
 
 | <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> |  <center>Node 5</center> |
-|:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |**K=1** | <center> 4/15 </center> | <center> 2/5 </center> | <center> 1/6 </center> | <center> 1/10 </center>  | <center> 4/15 </center> | <center> 1/5 </center> |
 |**K=2** | <center> 1/10  </center> | <center> 13/30   </center> | <center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> | <center> 1/5 </center> |
 
-* Node 0:  (1/3)X(1/10)+1/5 = 1/10 
+* **Node 0**:  (1/3)X(1/10)+1/5 = 1/10 
 
-* Node 1:  (1/6)+(4/15) = 13/30 
+* **Node 1**:  (1/6)+(4/15) = 13/30 
 
-* Node 2:  (1/3)X(1/10)+(1/2)X(2/5)= 7/30
+* **Node 2**:  (1/3)X(1/10)+(1/2)X(2/5)= 7/30
 
-* Node 3:  (1/2)X(2/5) = 2/10 = 1/5
+* **Node 3**:  (1/2)X(2/5) = 2/10 = 1/5
 
-* Node 4:  (1/3)X(1/10)+1/5= 7/30
+* **Node 4**:  (1/3)X(1/10)+1/5= 7/30
 
-* Node 5:   1/5
+* **Node 5**:   1/5
 
 | <center>K large</center> |  <center>Node 0</center> |  <center>Node 1</center> |  <center>Node 2</center> |  <center>Node 3</center> |<center>Node 4</center> |  <center>Node 5</center> |
-|:--------|:--------:|--------:|:--------|:--------:|--------:|--------:|
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 |**K=2** | <center> 1/10  </center> | <center> 13/30   </center> |<center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> |<center> 1/5 </center> |
 |**K=inf** | <center> 0.15  </center> | <center> 0.34  </center> |<center> 0.22  </center> | <center> 0.17  </center>  | <center> 0.1  </center> |<center> 0.02 </center> |
 
