@@ -5,21 +5,29 @@ date:   2018-06-07
 categories: [Network graph analysis]
 ---
 
-Find the number of even digits in the given integer.
+Let's learn a little more about network analysis(A.K.A Graph Theory).
 
-**Example**
+**Centrality**
 
-* For `n = 1010`, the output should be `numberOfEvenDigits(n) = 2`.
-* For `n = 123`, the output should be `numberOfEvenDigits(n) = 1`.
+One of the most widely used concept for Network Analysis is "Centrality".
+It aims to find the most important nodes in a given network. There may be differeint notations of "important" so there are many centrality meatusre. 
 
-**Input/Output**
+* `Degree Centrality`- The first and conceptually the simplest Centrality definition. This is the number of edges connected to a node. 
+                        In the case of a directed graph, we can have 2 degree centrality measures(inbound, outbound)
 
-* [time limit] 4000ms (py)
-* [input] integer n (A positive integer).
+* `Closeness Centrality` - Closeness centrality of a node is the average length of the shortest path from the node to all other nodes
 
-**_Constraints:_**
+* `Betweenness Centrality` - Number of times a node is present in the shortest path between 2 other nodes. 
 
-* 1 ≤ n ≤ 106.
+**Network Density**
+
+* A measure of how many edges a Graph has. The actual definition will vary depending on type of Graph and the context in which the question is asked. For a complete undirected Graph the Density is 1, while it is 0 for an empty Graph.
+Graph Density can be greater than 1 in some situation (loop) 
+
+**Graph Randomizations**
+
+* While the definitions of some Graph metrics maybe easy to calculate, it is not easy to understand their relative importance. 
+We use Network/Graph Radomizations in such cases. We calculate the metric for the Graph at hand and for another similar Graph that is randomly generated. This similarity can foir example be the same number of density and nodes. Typically we generate a 1000 similar random graphs and caculate the Graph metric for each of them and then compare it with the same metric for the Graph at hand to arrive at some  notion of a banchmark 
 
 * **[output] integer**
 
