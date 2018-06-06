@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Network analysis for financial industry - (2)"
+title:  "Network graph analysis (2)"
 date:   2018-05-30
 categories: [Network graph analysis]
 ---
