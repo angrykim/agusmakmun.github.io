@@ -5,7 +5,6 @@ date:   2018-05-30
 categories: [Network graph analysis]
 ---
 
-# [Network graph analysis - 2](https://en.wikipedia.org/wiki/Social_network_analysis)
 
 The previous post did not mention **Directed network**. 
 
