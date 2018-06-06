@@ -6,8 +6,6 @@ categories: [Network graph analysis]
 ---
 
 
-# [Network graph analysis - 1](https://en.wikipedia.org/wiki/Social_network_analysis)
-
 
 Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
 
