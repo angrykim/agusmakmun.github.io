@@ -34,7 +34,7 @@ It aims to find the most important nodes in a given network. There may be differ
   
  ![screenshot_1](/static/img/Density.jpg)
 
-* What is the purpose of Network density?
+* ***What is the purpose of Network density?***
 
   * Density measures are extremely useful in <U>determining potential fraud hotspots</U> in retail banking from a maze of account transactions and applied control measures. 
  
