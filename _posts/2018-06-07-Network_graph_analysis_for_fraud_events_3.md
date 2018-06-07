@@ -51,5 +51,6 @@ We use Network/Graph Radomizations in such cases. We calculate the metric for th
 **Other measures**
 * Other measures that are commonly used in Network Analysis are sub-structures, structural holes, and clustering-coefficient. 
 
-* Next time, We will make a fictional case scenario of fraud, abuse, and financial crimes with the counter measures about how we can detect(recognize) it with Network graph! 
+
+***Next time, We will make a fictional case scenario of fraud, abuse, and financial crimes with the counter measures about how we can detect(recognize) it with Network graph!***
 
