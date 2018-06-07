@@ -40,7 +40,7 @@ It aims to find the most important nodes in a given network. There may be differ
  
   * Credit card transaction monitoring and money-laundering are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
  
-* Please refer to the previous post of **[Local Clustering Coefficient](https://github.com/angrykim/angrykim.github.io/blob/master/_posts/2018-05-29-Network_graph_analysis_for_fraud_events_1.md)** with the acutal example.
+* Please refer to the previous post of **[Local Clustering Coefficient](https://angrykim.github.io/network%20graph%20analysis/2018/05/29/Network_graph_analysis_for_fraud_events_1.html)** with the acutal example.
 
 
 **Graph Randomizations**
@@ -48,24 +48,8 @@ It aims to find the most important nodes in a given network. There may be differ
 * While the definitions of some Graph metrics maybe easy to calculate, it is not easy to understand their relative importance. 
 We use Network/Graph Radomizations in such cases. We calculate the metric for the Graph at hand and for another similar Graph that is randomly generated. This similarity can foir example be the same number of density and nodes. Typically we generate a 1000 similar random graphs and caculate the Graph metric for each of them and then compare it with the same metric for the Graph at hand to arrive at some  notion of a banchmark 
 
-* **[output] integer**
+**Other measures**
+* Other measures that are commonly used in Network Analysis are sub-structures, structural holes, and clustering-coefficient. 
 
-**My Solution:**
+* Next time, We will make a fictional case scenario of fraud, abuse, and financial crimes with the counter measures about how we can detect(recognize) it with Network graph! 
 
-```python
-def numberOfEvenDigits(n):
-    return len(filter(lambda m: m.isdigit() and int(m) % 2 == 0, str(n)))
-```
-
-**Rests Tests:**
-
-```
-n: 1010
-Output: 2
-
-n: 123
-Output: 1
-
-n: 135
-Output: 0
-```
