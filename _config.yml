@@ -21,6 +21,8 @@ social:
       link: "https://www.linkedin.com/in/seonmin/"
     - icon: fa-github
       link: "https://github.com/angrykim"
+    - icon: fa-share
+      link: "https://github.com/angrykim"
 
 #share:
   #twitter_username: 
