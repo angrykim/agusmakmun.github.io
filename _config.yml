@@ -21,7 +21,7 @@ social:
       link: "https://www.linkedin.com/in/seonmin/"
     - icon: fa-github
       link: "https://github.com/angrykim"
-    - icon: fa-share
+    - icon: fa-envelope
       link: mailto:?subjecdt=Recommended blog&body=https://angrykim.github.io/ 
 
 #share:
