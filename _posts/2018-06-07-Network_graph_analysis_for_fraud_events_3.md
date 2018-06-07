@@ -21,8 +21,23 @@ It aims to find the most important nodes in a given network. There may be differ
 
 **Network Density**
 
-* A measure of how many edges a Graph has. The actual definition will vary depending on type of Graph and the context in which the question is asked. For a complete undirected Graph the Density is 1, while it is 0 for an empty Graph.
-Graph Density can be greater than 1 in some situation (loop) 
+* A measure of how many edges a Graph has.
+  It is defined as the number of edges in a portion of a social network to the maximum number of edges that theoretically make up the network. 
+  
+  The following **formula** is used to calculate the relative density of a portion of network. 
+  
+  For a complete undirected Graph the Density is 1, while it is 0 for an empty Graph.
+  
+  `c - the number of observed edges.`
+  
+  `n - the total number of nodes in the network.`
+  
+ ![screenshot_1](/static/img/Density.jpg)
+ 
+ Density measures are extremely useful in determining potential fraud hotspots in retail banking from a maze of account transactions and applied control measures.
+ 
+ Credit card transaction monitoring and money-laundering are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
+
 
 **Graph Randomizations**
 
