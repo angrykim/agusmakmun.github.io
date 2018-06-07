@@ -25,7 +25,7 @@ It aims to find the most important nodes in a given network. There may be differ
   It is defined as the number of edges in a portion of a social network to the maximum number of edges that theoretically make up the network. 
   
   The following **formula** is used to calculate the relative density of a portion of network. 
-  
+ 
   For a complete undirected Graph the Density is 1, while it is 0 for an empty Graph.
   
   `c - the number of observed edges.`
@@ -33,12 +33,14 @@ It aims to find the most important nodes in a given network. There may be differ
   `n - the total number of nodes in the network.`
   
  ![screenshot_1](/static/img/Density.jpg)
+
+* What is the purpose of Network density?
+
+  * Density measures are extremely useful in <U>determining potential fraud hotspots</U> in retail banking from a maze of account transactions and applied control measures. 
  
- Density measures are extremely useful in <U>determining potential fraud hotspots</U> in retail banking from a maze of account transactions and applied control measures. 
+  * Credit card transaction monitoring and money-laundering are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
  
- <U>Credit card transaction monitoring and money-laundering</U> are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
- 
- Please refer to the previous post of **[Local Clustering Coefficient](https://github.com/angrykim/angrykim.github.io/blob/master/_posts/2018-05-29-Network_graph_analysis_for_fraud_events_1.md)** with the acutal example.
+* Please refer to the previous post of **[Local Clustering Coefficient](https://github.com/angrykim/angrykim.github.io/blob/master/_posts/2018-05-29-Network_graph_analysis_for_fraud_events_1.md)** with the acutal example.
 
 
 **Graph Randomizations**
