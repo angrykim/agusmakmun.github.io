@@ -19,7 +19,7 @@ It aims to find the most important nodes in a given network. There may be differ
 
 * `Betweenness Centrality` - Number of times a node is present in the shortest path between 2 other nodes. 
 
-**Network Density**
+**Network Density(Local Clustering Coefficient)**
 
 * A measure of how many edges a Graph has.
   It is defined as the number of edges in a portion of a social network to the maximum number of edges that theoretically make up the network. 
@@ -34,9 +34,11 @@ It aims to find the most important nodes in a given network. There may be differ
   
  ![screenshot_1](/static/img/Density.jpg)
  
- Density measures are extremely useful in determining potential fraud hotspots in retail banking from a maze of account transactions and applied control measures.
+ Density measures are extremely useful in <U>determining potential fraud hotspots</U> in retail banking from a maze of account transactions and applied control measures. 
  
- Credit card transaction monitoring and money-laundering are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
+ <U>Credit card transaction monitoring and money-laundering</U> are potentially two areas where density metrics could trigger the necessity for deeper investigations. 
+ 
+ Please refer to the previous post of **[Local Clustering Coefficient](https://github.com/angrykim/angrykim.github.io/blob/master/_posts/2018-05-29-Network_graph_analysis_for_fraud_events_1.md)** with the acutal example.
 
 
 **Graph Randomizations**
