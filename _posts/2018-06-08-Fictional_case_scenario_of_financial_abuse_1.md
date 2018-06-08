@@ -46,18 +46,18 @@ A similar amount is being transferred from a few dozen user accounts to a brown 
 
 Here we can see the brown account linked to multiple accounts as `BROKER` and the final destination account as `BANKER`.   
 
-In fact, in the case of cashback events, there is a strong tendency to use money transfer function to collect the money divided into several accounts. 
+In fact, in the case of cashback events, there is a strong tendency to use **money transfer** to collect the money splitted into several accounts. 
 
-And **this pattern is very likely to be money laundering depending on the amount of money and the size of the network.**
+Be aware of that **this pattern is also very likely to be money laundering depending on the amount of money and the size of the network.**
 
-One last thing, Finding patterns in a negative network and building an automated negative graph detection system is a completely different matter.
+One last thing, Drawing network graphs and building an automated detection model is a completely different matter.
 
-I'll be able to mention this again later.
+I'll talk about it later in another post. 
 
 ### 2. Event pattern recongnition.
 
-You can find a pattern for users who get `the cheapest goods` or `cashable items` and if the same goods were purchased by many different users(at the similar time). 
+You can find a pattern for users who get `the cheapest goods` or `cashable items` and if the same goods were purchased by many different users(at the very similar time). 
 
 We are able to reasonably suspect the users as abusers 
 
-In fact, when combined with the network graph, It is stronger than any other methods. 
+In fact, when combined with the network graph, It is stronger than any other methods to find organized crimes(abusing). 
