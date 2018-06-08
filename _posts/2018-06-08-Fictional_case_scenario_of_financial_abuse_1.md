@@ -52,7 +52,7 @@ Here we can see the brown account linked to multiple accounts as `BROKER` and th
 
 In fact, in the case of cashback events, there is a strong tendency to use money transfer function to collect the money divided into several accounts. 
 
-And this pattern is very likely to be money laundering depending on the amount of money and the size of the network.
+And **this pattern is very likely to be money laundering depending on the amount of money and the size of the network.**
 
 One last thing, Finding patterns in a negative network and building an automated negative graph detection system is a completely different matter.
 
