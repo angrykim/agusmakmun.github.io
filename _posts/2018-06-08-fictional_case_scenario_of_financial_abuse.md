@@ -26,11 +26,13 @@ Details of the event are as follows.
 
 ~~~~
 
-First, the string is divided into the least possible number of disjoint **substrings** consisting of identical characters
-for example, `"aabbbc"` is divided into `["aa", "bbb", "c"]`
-Next, each substring with length greater than one is replaced with a concatenation of its length and the repeating character
-for example, substring `"bbb"` is replaced by `"3b"`
-Finally, all the new strings are concatenated together in the same order and a new string is returned.
+With this scenario, You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
+
+And we must identify the group of users who are supposed to be abuser, using all the means available.
+
+But let's keep in mind that this scenario is for new users and there is no historical transaction data because they are new users.
+
+
 
 #### SUBSTRING
 
