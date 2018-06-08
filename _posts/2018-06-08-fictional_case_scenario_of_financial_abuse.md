@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  " fictional case scenario of financial abuse (1)"
-date:   2016-06-11 03:04:23 +0700
+date:   2018-06-08 
 categories: [scenario, network graph analysis]
 ---
 
 
-Let's check **the first fictional scenario of financial abuse case**. 
+Let's check the first fictional scenario of financial abuse case.
+
+#### Ficational case scenario - 1 : 
 
 ~~~~
-Ficational case scenario 1 :
 
 We are a company called **n-wallet** that provides mobile payment service(It provides `payment, money transfer, and withdraw`).
 
