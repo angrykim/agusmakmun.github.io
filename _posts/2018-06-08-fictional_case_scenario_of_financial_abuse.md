@@ -1,11 +1,29 @@
 ---
 layout: post
-title:  "Find Substrings for line Encoding [CF]"
+title:  " fictional case scenario of financial abuse (1)"
 date:   2016-06-11 03:04:23 +0700
-categories: [python, codefights]
+categories: [scenario, network graph analysis]
 ---
 
-Given a string, return its encoding defined as follows:
+
+Let's check **the first fictional scenario of financial abuse case**. 
+
+~~~~
+Ficational case scenario 1 :
+
+We are a company called **n-wallet** that provides mobile payment service(It provides `payment, money transfer, and withdraw`).
+
+Recently, the marketing team has confirmed that many users have entered our service through various events.
+
+However, we have confirmed that the actual AU ratio is not significantly different from the previous one.
+
+Details of the event are as follows.
+
+1. Charge $5, regardless of the payment amount, when using the first payment service among new users.
+
+2. Additional $5 charge when adding first credit card to n-wallet service.
+ 
+~~~~
 
 First, the string is divided into the least possible number of disjoint **substrings** consisting of identical characters
 for example, `"aabbbc"` is divided into `["aa", "bbb", "c"]`
