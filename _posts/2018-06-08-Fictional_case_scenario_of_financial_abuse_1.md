@@ -8,9 +8,8 @@ categories: [scenario, network graph analysis]
 
 Let's check the first fictional scenario of financial abuse case.
 
-### --------------------------------------------------------------------------
-
 # Scenario - 1 
+--------------------------------
 
 We are a company called **"P-wallet"** that provides mobile payment service
 
@@ -26,7 +25,7 @@ Details of the event are as follows.
 
 *2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied).*
 
-### --------------------------------------------------------------------------
+--------------------------------
 
 You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
 
