@@ -31,8 +31,6 @@ And we must identify the group of users who are supposed to be abuser, using all
 
 But let's keep in mind that this scenario is for new users and there is no historical transaction data because they are new users.
 
-Let's check what are options we have! 
-
 **1. Draw network graph.**
 
 Drawing a network graph for `Money transfer event` will teach you if there is any suspicous `Network node` that can integrate small amount money from the number of account to the one that can withdraw it.  
