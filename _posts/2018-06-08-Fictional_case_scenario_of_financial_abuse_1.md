@@ -8,7 +8,7 @@ categories: [scenario, network graph analysis]
 
 Let's check the first fictional scenario of financial abuse case.
 
-## Scenario - 1 
+## Scenario 1 - Abuse of promotion event
 
 > _We are a company called **"P-wallet"** that provides mobile payment service_
 >
