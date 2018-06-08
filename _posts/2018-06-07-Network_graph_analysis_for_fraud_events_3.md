@@ -5,7 +5,7 @@ date:   2018-06-07
 categories: [Network graph analysis]
 ---
 
-Let's learn a little more about network analysis(A.K.A Graph Theory).
+Let's learn a little more about network analysis(a.k.a Graph Theory).
 
 **Centrality**
 
