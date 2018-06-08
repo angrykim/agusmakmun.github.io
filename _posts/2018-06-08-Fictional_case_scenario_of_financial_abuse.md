@@ -5,7 +5,8 @@ date:   2018-06-08
 categories: [scenario, network graph analysis]
 ---
 
-> Ficational case scenario - 1
+> # Ficational case scenario - 1
+=============
 
 Let's check the first fictional scenario of financial abuse case.
 
