@@ -12,7 +12,7 @@ Let's check the first fictional scenario of financial abuse case.
 
 ~~~~
 
-We are a company called "n-wallet" that provides mobile payment service(It provides `payment, money transfer, and withdraw`).
+We are a company called "P-wallet" that provides mobile payment service(It provides `payment, money transfer, and withdraw`).
 
 Recently, the marketing team has confirmed that many users have entered our service through various events.
 
