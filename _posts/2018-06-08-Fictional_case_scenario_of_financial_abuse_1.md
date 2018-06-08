@@ -24,11 +24,9 @@ Let's check the first fictional scenario of financial abuse case.
 >
 > _2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied)._
 
-You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
+You should be able to determine that you only need to check the patterns of users registered during the event period. 
 
-But let's keep in mind that this scenario is for new users and there is no historical transaction data because they are new users.
-
-From my point of view, There are two approach to find abuser groups. 
+From my point of view, There are __two approaches__ to find abuser groups. 
 
 ### 1. Draw network graph.
 
