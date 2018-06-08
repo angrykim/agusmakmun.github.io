@@ -5,7 +5,6 @@ date:   2018-06-07
 categories: [Network graph analysis]
 ---
 > # Network graph analysis - 3
-=============
 
 Let's learn a little more about network analysis(a.k.a Graph Theory).
 
