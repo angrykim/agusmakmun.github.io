@@ -8,9 +8,8 @@ categories: [scenario, network graph analysis]
 
 Let's check the first fictional scenario of financial abuse case.
 
-#### Ficational case scenario - 1 : 
-
 * * *
+#### Ficational case scenario - 1 : 
 
 We are a company called "P-wallet" that provides mobile payment service(It provides `payment, money transfer, deposit, and withdraw by bank account`).
 
@@ -60,54 +59,8 @@ I'll be able to mention this again later.
 
 **2. Event pattern recongnition.**
 
-#### SUBSTRING
+You can find a pattern for users who get **the cheapest goods** or **cashable items** and if the same goods were purchased by many different users(at the similar time). 
 
-A **substring** of a string `S` is another string `S'` that occurs in `S`. For example, `"Fights"` is a substring of `"CodeFights"`, but `"CoFi"` isn't.
+We are able to reasonably suspect the users as abusers 
 
-**Example**
-
-For `s = "aabbbc"`, the output should be `lineEncoding(s) = "2a3bc"`.
-
-**Input/Output**
-
-* [time limit] 4000ms (py)
-* [input] string s (String consisting of lowercase English letters.)
-
-_Constraints:_ `4 ≤ s.length ≤ 15.`
-
-* [output] string (Encoded version of s.)
-
-**Solution:**
-
-```python
-import re
-def lineEncoding(s):
-    grub = [ m.group(0) for m in re.finditer(r"(\w)\1*", s )]
-    numb = 0
-    out  = []
-    for i in grub:
-        numb += 1
-        if len(i) > 1:
-            out.append(grub[numb-1].replace(grub[numb-1], str(len(i))+i[0]))
-        else:
-            out.append(i)
-    return ''.join(out)
-```
-
-**Result Tests:**
-
-```python
->>>
-s = "aabbbc"
->>> lineEncoding(s)
-"2a3bc"
->>>
->>> s = "abbcabb"
->>> lineEncoding(s)
-"a2bca2b"
->>>
->>> s = "abcd"
->>> lineEncoding(s)
-"abcd"
->>>
-```
+In fact, when combined with the network graph, It is stronger than any other methods. 
