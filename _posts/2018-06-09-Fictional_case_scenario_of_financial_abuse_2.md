@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Fictional case scenario of financial abuse (2)"
-date:   2018-05-29
+date:   2018-06-09
 categories: [Network graph analysis]
 ---
 
