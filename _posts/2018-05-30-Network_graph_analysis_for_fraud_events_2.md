@@ -5,9 +5,6 @@ date:   2018-05-30
 categories: [Network graph analysis]
 ---
 
-
-> # Network graph analysis - 2
-
 The previous post did not mention **Directed network**. 
 
 However, in general, when you detect fraud or abuse events in finance, 
