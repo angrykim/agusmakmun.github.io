@@ -10,19 +10,19 @@ Let's check the first fictional scenario of financial abuse case.
 
 ## Scenario - 1 
 
-_We are a company called **"P-wallet"** that provides mobile payment service_
-
-_(It provides payment, money transfer, deposit, and withdraw by bank account)._
-
-_Recently, the marketing team has confirmed that many users have entered our service through various events._
-
-_However, we have confirmed that the actual AU ratio is not significantly different from the previous one._
-
-_Details of the event are as follows._
-
-_1. During the event period, new subscribers charge $10 or more for getting an additional $5 to a P-wallet account._
-
-_2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied)._
+> _We are a company called **"P-wallet"** that provides mobile payment service_
+>
+> _(It provides payment, money transfer, deposit, and withdraw by bank account)._
+>
+> _Recently, the marketing team has confirmed that many users have entered our service through various events._
+>
+> _However, we have confirmed that the actual AU ratio is not significantly different from the previous one._
+>
+> _Details of the event are as follows._
+>
+> _1. During the event period, new subscribers charge $10 or more for getting an additional $5 to a P-wallet account._
+>
+> _2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied)._
 
 You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
 
