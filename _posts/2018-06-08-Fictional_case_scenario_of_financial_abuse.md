@@ -24,11 +24,11 @@ Details of the event are as follows.
 
 ---------------------------------------
 
-With this scenario, You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
-
-And we must identify the group of users who are supposed to be abuser, using all the means available.
+You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
 
 But let's keep in mind that this scenario is for new users and there is no historical transaction data because they are new users.
+
+From my point of view, There are two approach to find abuser groups. 
 
 **1. Draw network graph.**
 
@@ -46,7 +46,7 @@ As you can see, the pattern is quiet straightforward.
     
 A similar amount is being transferred from a few dozen user accounts to a brown account, and a brown account is a pattern that transfers all of the collected money to the final destination.
 
-Here we can see the brown account linked to multiple accounts as **BROKER** and the final destination account as **Banker**.   
+Here we can see the brown account linked to multiple accounts as `BROKER` and the final destination account as `BANKER`.   
 
 In fact, in the case of cashback events, there is a strong tendency to use money transfer function to collect the money divided into several accounts. And this pattern is very likely to be money laundering depending on the amount of money and the size of the network.
 
@@ -56,7 +56,7 @@ I'll be able to mention this again later.
 
 **2. Event pattern recongnition.**
 
-You can find a pattern for users who get **the cheapest goods** or **cashable items** and if the same goods were purchased by many different users(at the similar time). 
+You can find a pattern for users who get `the cheapest goods` or `cashable items` and if the same goods were purchased by many different users(at the similar time). 
 
 We are able to reasonably suspect the users as abusers 
 
