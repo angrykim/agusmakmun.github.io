@@ -22,7 +22,7 @@ Details of the event are as follows.
 
 1. Charge $5, regardless of the payment amount, when using the first payment service among new users.
 
-2. Additional $5 charge when adding first credit card to n-wallet service.
+2. Additional $5 charge when adding first credit card to n-wallet service (only the condition 1 is satisfied).
  
 ~~~~
 
