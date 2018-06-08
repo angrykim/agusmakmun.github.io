@@ -8,7 +8,7 @@ categories: [scenario, network graph analysis]
 
 Let's check the first fictional scenario of financial abuse case.
 
-#### - Ficational case scenario - 1 : 
+#### Ficational case scenario - 1 : 
 
 * * *
 
@@ -35,19 +35,18 @@ But let's keep in mind that this scenario is for new users and there is no histo
 Let's check what are options we have! 
 
 **1. Draw network graph.**
-    
-Drawing a network graph for "Money transfer event" will teach you if there is any suspicous "Network node" that can integrate small amount money from the number of account to the one that can withdraw it.  
+
+Drawing a network graph for `Money transfer event` will teach you if there is any suspicous `Network node` that can integrate small amount money from the number of account to the one that can withdraw it.  
 
 Let's see the graph that i made up for you to better understand. 
-    
     
 ![screenshot_1](/static/img/sample_abuser.jpg)
 
 As you can see, the pattern is quiet straightforward. 
 
-  - The thickness of the edge, is the amount of money transferred.
+  - ***The thickness of the edge, is the amount of money transferred.***
 
-  - The size of a node is related to the number of times money is received from another node.
+  - ***The size of a node is related to the number of times money is received from another node.***
     
 A similar amount is being transferred from a few dozen user accounts to a brown account, and a brown account is a pattern that transfers all of the collected money to the final destination.
 
