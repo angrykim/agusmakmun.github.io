@@ -5,12 +5,11 @@ date:   2018-06-08
 categories: [scenario, network graph analysis]
 ---
 
+> Ficational case scenario - 1
 
 Let's check the first fictional scenario of financial abuse case.
 
-* * *
-#### Ficational case scenario - 1 : 
-
+=============
 We are a company called "P-wallet" that provides mobile payment service(It provides `payment, money transfer, deposit, and withdraw by bank account`).
 
 Recently, the marketing team has confirmed that many users have entered our service through various events.
@@ -22,8 +21,7 @@ Details of the event are as follows.
 1. During the event period, new subscribers charge $10 or more for getting an additional $5 to a P-wallet account.
 
 2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied).
-
-* * *
+=============
 
 With this scenario, You should be able to quickly determine that you only need to check the patterns of users registered during the event period. 
 
