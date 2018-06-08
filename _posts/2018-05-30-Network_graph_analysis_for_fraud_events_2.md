@@ -7,7 +7,6 @@ categories: [Network graph analysis]
 
 
 > # Network graph analysis - 2
-=============
 
 The previous post did not mention **Directed network**. 
 
