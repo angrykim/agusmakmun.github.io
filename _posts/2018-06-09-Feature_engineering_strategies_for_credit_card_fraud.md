@@ -11,9 +11,11 @@ The title is **Feature engineering strategies for credit card fraud detection**,
 
 As the title suggests, this paper introduces various feature engineering for fraud detection.
 
-I will not explain everything above, but you can get the information you need through Google.
+Most of features in this paper have been used in current Fraud Detection System.
 
-I will be able to explain just one of these, which is **Local & Global Clustering Coefficient**.
+However, There was an interesting analysis of the payment time, which attracted my attention.
+
+
 
 `Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
