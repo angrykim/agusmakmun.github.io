@@ -5,17 +5,17 @@ date:   2018-06-09
 categories: [Network graph analysis]
 ---
 
-I have recently read interesting thesis so i wanted to implement it in code.
+I have recently read interesting *[thesis](https://www.sciencedirect.com/science/article/pii/S0957417415008386)* so i wanted to implement it in code.
 
 The title is **Feature engineering strategies for credit card fraud detection**, and the paper author is *AlejandroCorrea Bahnsen*.
 
-As the title suggests, this paper introduces various feature engineering for fraud detection.
+As the title suggests, This paper introduces various feature engineering for creidt card fraud detection.
 
-Most of features in this paper have been used in current Fraud Detection System.
+Most of features in this paper have been used in the current Fraud Detection System (at least we have).
 
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
-
+![screenshot_1](/static/img/transaction_time.jpg)
 
 `Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
