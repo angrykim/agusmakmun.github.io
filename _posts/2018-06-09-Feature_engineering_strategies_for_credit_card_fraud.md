@@ -7,7 +7,7 @@ categories: [Network graph analysis]
 
 I have recently read interesting *[thesis](https://www.sciencedirect.com/science/article/pii/S0957417415008386)* so i wanted to implement it in code.
 
-The title is **Feature engineering strategies for credit card fraud detection**, and the paper author is *AlejandroCorrea Bahnsen*.
+The title is **Feature engineering strategies for credit card fraud detection**, and the paper author is **AlejandroCorrea Bahnsen**.
 
 As the title suggests, This paper introduces various feature engineering for creidt card fraud detection.
 
@@ -16,6 +16,18 @@ Most of features in this paper have been used in the current Fraud Detection Sys
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
 ![screenshot_1](/static/img/transaction_time.jpg)
+
+Motivation was as follows. 
+
+A customer is expected to use their credit cards at very similar hours so the confidence interval for individual can be calculated.
+
+And to illustrate this, the commonly used "arithmetic mean" shows that it does not fit into data consisting of repeated(periodic) behavior of the time feature.
+
+the arithmetic mean is not a correct way to average time as shown in Fig.1
+
+The authors then use vonmises to calculate confidence intervals (very interesting !!)
+
+The arithmetic mean of transaction time of four transactions made at 2:00, 3:00, 22:00 and 23:00 is 12:30, which is counter in- tuitive since no transaction was made close to that time.
 
 `Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
 
