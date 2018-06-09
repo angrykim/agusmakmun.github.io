@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Fictional case scenario of financial abuse (2)"
+title:  "Feature engineering strategies for credit card fraud detection"
 date:   2018-06-09
 categories: [Network graph analysis]
 ---
 
-Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
+I have recently read interesting thesis so i wanted to implement it in code.
 
-The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
+The title is **Feature engineering strategies for credit card fraud detection**, and the paper author is *AlejandroCorrea Bahnsen*.
+
+As the title suggests, this paper introduces various feature engineering for fraud detection.
 
 I will not explain everything above, but you can get the information you need through Google.
 
