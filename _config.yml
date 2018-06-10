@@ -31,8 +31,8 @@ social:
 urls:
     - text: About Me
       url: /about/
-    - text: Honors & Awards
-      url: /projects/
+#    - text: Honors & Awards
+#      url: /projects/
     - text: XML Feed
       url: /feed.xml
 
