@@ -17,7 +17,7 @@ Most of features in this paper have been used in the current Fraud Detection Sys
 
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
-![screenshot_1](/static/img/PeriodicTime1.jpg)
+![screenshot_1](/static/img/PeriodicTime1.png)
 
 Motivation was as follows. 
 
