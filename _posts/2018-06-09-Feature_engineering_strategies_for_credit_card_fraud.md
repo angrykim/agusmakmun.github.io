@@ -5,126 +5,74 @@ date:   2018-06-09
 categories: [Network graph analysis]
 ---
 
-I have recently read interesting *[thesis](https://www.sciencedirect.com/science/article/pii/S0957417415008386)* so i wanted to implement it in code.
+I have recently read interesting *thesis* so i wanted to implement it in code.
 
 The title is **Feature engineering strategies for credit card fraud detection**, and the paper author is **AlejandroCorrea Bahnsen**.
 
-As the title suggests, This paper introduces various feature engineering for creidt card fraud detection.
+If you want to see brief information, Please check his [blog](https://blog.easysol.net/feature-engineering-for-fraud-detection/).
 
-Most of features in this paper have been used in the current Fraud Detection System (at least we have).
+As the title shows us, This paper introduces various feature engineering for creidt card fraud detection.
+
+Most of features in this paper have been used in the current Fraud Detection System (at least we have already implimented it internally).
 
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
-![screenshot_1](/static/img/transaction_time.jpg)
+![screenshot_1](/static/img/PeriodicTime1.jpg)
 
 Motivation was as follows. 
 
-A customer is expected to use their credit cards at very similar hours so the confidence interval for individual can be calculated.
+A customer is expected to use their credit cards at very similar hours so the confidence interval for individuals can be calculated.
 
-And to illustrate this, the commonly used "arithmetic mean" shows that it does not fit into data consisting of repeated(periodic) behavior of the time feature.
+And to illustrate this, the commonly used "arithmetic mean" shows that it does not fit into data consisting of repeated(periodic) behavior of the time feature like Fig.1 
 
-the arithmetic mean is not a correct way to average time as shown in Fig.1
 
-The authors then use vonmises to calculate confidence intervals (very interesting !!)
+So the proposed way is to use the von-Mises distribution to calculate confidence intervals for customers.(very interesting !!)
 
-The arithmetic mean of transaction time of four transactions made at 2:00, 3:00, 22:00 and 23:00 is 12:30, which is counter in- tuitive since no transaction was made close to that time.
+> What is [Von Mises Distribustion ?](https://en.wikipedia.org/wiki/Von_Mises_distribution) 
 
-`Local Clustering Coefficient(LCC)`refers to the `Connection` between nodes, which means it is defined as the number of connections a node has, divided by the total possible connections a node could have. 
+The von Mises distribution of a subset of transactions made by the same customer is calculated as
 
-+ **Sample data**
+![screenshot_2](/static/img/PeriodicTime-Formula2.png)
 
-~~~python
-%matplotlib notebook
-import networkx as nx
-import numpy as np
-import pandas as pd
+where and are the periodic mean and periodic standard deviation, respectively. Moreover, the Von Mises distribution is calculated using the first order Bessel function.
 
-G = nx.Graph()
+![screenshot_2](/static/img/PeriodicTime-Formula3.png)
 
-G.add_edges_from([(0, 1),
-                  (0, 2),
-                  (0, 3),
-                  (0, 4),
-                  (2, 3)])
+So far, Seems really good so let's implement it right in the code.
 
-nx.draw_networkx(G)
-~~~
+To better understand the code, I splitted it into some specific parts.
 
-![screenshot_0](/static/img/sample_data.jpg)
-
-**Total possible connections of each node** can be computed by 
-
-![screenshot_1](/static/img/latex_1.jpg)
-
-**Local Clustering Coefficent(LCC) of each node** can be computed by 
-
-![screenshot_2](/static/img/latex_2.jpg)
-
-The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC)`.
-
-What is `Global Clustering Coefficient(GCC)`?
-
-It is known that the connections between nodes in the real network have relatively high density of connections, which means nodes in a real network tend to cluster well compared to a random network.
-
-So, In the graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
-
-The first method that we can compute GCC is `Average of LCC` over all nodes in a graph, and this can be easily done with networkx.
-
-+ `Approach 1` : Average LCC over all nodes in the graph using networkx in python.
++ **Sample code**
 
 ~~~python
-%matplotlib notebook
-import networkx as nx
-import numpy as np
-import pandas as pd
 
-G = nx.Graph()
+from scipy.stats import vonmises
 
-G.add_edges_from([(0, 1),
-                  (0, 2),
-                  (0, 3),
-                  (0, 4),
-                  (2, 3)])
+def get_mu_kappa(time):
+    a = np.sin(time).sum()
+    b = np.cos(time).sum()
+    c = len(time)
+    std = np.sqrt(np.log(1/(((a/c))**2 + (((b/c))**2))))
+    mean = 2*(np.arctan(a/((((b**2) + (a**2))**0.5)+b)))
+    kappa = (1/std)
+    return mean, kappa
+    
+def getCI(input_list, alpha = 0.95):
+    mu, kappa = get_mu_kappa(np.array(input_list) * math.pi / 12)
+    temp = list(map(lambda x: round(x*12/math.pi, 2) if x*12/math.pi > 0 else round(x*12/math.pi, 2) + 24, vonmises.interval(alpha, kappa, loc=mu, scale=1)))
+    return temp[0]
 
-nx.average_clustering(G) #return : 0.4333333...4
+def getCI_end(input_list, alpha = 0.95):
+    mu, kappa = get_mu_kappa(np.array(input_list) * math.pi / 12)
+    temp = list(map(lambda x: round(x*12/math.pi, 2) if x*12/math.pi > 0 else round(x*12/math.pi, 2) + 24, vonmises.interval(alpha, kappa, loc=mu, scale=1)))
+    return temp[1]    
+    
 ~~~
 
-The ohter one is to calculate [Transitivity](https://www.sci.unich.it/~francesc/teaching/network/transitivity.html)
+As you can see the code block above, I implemented the formula intuitively with Python.
 
-![screenshot_3](/static/img/latex_3.png)
+Using the vonmises of the Python library, you can easily compute the interval of each customer.
 
+Also, using scipy's **circmean**, and **circstd** makes code much easier and more concise than the above code.
 
-+ `Approach 2` : Transitivity (Percentage of "open triads" that are triangles in the network)
-
-![screenshot_4](/static/img/triangles.jpg)
-
-~~~python
-%matplotlib notebook
-import networkx as nx
-import numpy as np
-import pandas as pd
-
-G = nx.Graph()
-
-G.add_edges_from([(0, 1),
-                  (0, 2),
-                  (0, 3),
-                  (0, 4),
-                  (2, 3)])
-
-nx.transitivity(G) #return : 0.375
-~~~
-
- - First cofunt how many configurations of the form in the network 
-   - node 0 : 6
-   - node 1 : 0
-   - node 2 : 1
-   - node 3 : 1
-   - node 4 : 0
-  - Secound count how many triangles there are in the network: **only one**
-  - The global clustering coefficient is 3/8 = `0.375`
-
-     
-   
-   
         
