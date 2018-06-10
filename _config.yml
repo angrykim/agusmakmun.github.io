@@ -32,7 +32,7 @@ urls:
     - text: About Me
       url: /about/
     - text: Honors & Awards
-      url: /Honors/
+      url: /project/
     - text: XML Feed
       url: /feed.xml
 
