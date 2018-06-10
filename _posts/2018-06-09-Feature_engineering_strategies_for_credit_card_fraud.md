@@ -2,7 +2,7 @@
 layout: post
 title:  "Feature engineering strategies for credit card fraud detection"
 date:   2018-06-09
-categories: [Network graph analysis]
+categories: [Statistics]
 ---
 
 I have recently read interesting *thesis* so i wanted to implement it in code.
