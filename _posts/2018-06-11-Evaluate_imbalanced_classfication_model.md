@@ -32,7 +32,7 @@ In other words, Existing conventional model evaluation methods do not fit the im
 
 # How we can solve this problem?
 
-There are the number of way to deal with this problem. but i normally use **Matthews Correlation Coefficient(MCC)**. 
+There are the number of ways to deal with this problem. but i normally use **Matthews Correlation Coefficient(MCC)**. 
 
 ![screenshot_3](/static/img/MCC.jpeg)
 
