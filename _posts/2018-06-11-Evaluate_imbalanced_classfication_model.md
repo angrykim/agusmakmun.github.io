@@ -5,7 +5,22 @@ date:   2018-06-11
 categories: [Machine learning]
 ---
 
-Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
+If you have spent some time in applying machine learning, you would have definitely come across imbalanced binary classfication problem
+(class imabalance). 
+
+# What is class imbalance?
+
+> It is the problem in machine learning where the total number of a class of data (positive) is far less than the total number of another class of data (negative). This problem is extremely common in practice and can be observed in various disciplines including fraud detection, anomaly detection, medical diagnosis, oil spillage detection, facial recognition, etc.
+
+The conventional model evaluation methods do not accurately measure model performance when faced with imbalanced class.
+
+Let's take a look at the sample below 
+
+![screenshot_1](/static/img/confusion_matrix.jpg)
+
+Normally, When evaluating a binary classfication model, we use `PRECISION`, `RECALL`, and `ACCURACY`.
+
+![screenshot_2](/static/img/model_evaluation.jpg)
 
 The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
 
