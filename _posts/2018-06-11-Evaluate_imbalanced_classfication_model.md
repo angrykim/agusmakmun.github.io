@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Network graph analysis (1)"
-date:   2018-05-29
-categories: [Network graph analysis]
+title:  "How to evaluate imbanaced classfication model"
+date:   2018-06-11
+categories: [Machine learning]
 ---
 
 Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
