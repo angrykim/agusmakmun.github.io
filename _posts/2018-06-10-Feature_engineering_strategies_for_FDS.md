@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Feature engineering strategies for credit card fraud detection"
+title:  "Feature engineering strategies for FDS"
 date:   2018-06-10
 categories: [Statistics]
 ---
