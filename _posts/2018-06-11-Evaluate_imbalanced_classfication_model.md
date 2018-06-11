@@ -14,7 +14,7 @@ If you have spent some time in applying machine learning, you would have definit
 
 The conventional model evaluation methods do not accurately measure model performance when faced with imbalanced class.
 
-Let's take a look at the sample below 
+Let's take a look at the sample confusion matrix of fraud events. 
 
 ![screenshot_1](/static/img/confusion_matrix.jpg)
 
@@ -22,7 +22,17 @@ Normally, When evaluating a binary classfication model, we use `PRECISION`, `REC
 
 ![screenshot_2](/static/img/model_evaluation.jpg)
 
-The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
+Using the exmaple of confusion matrix above, the `PRECISION`, `RECALL`, and `ACCURACY` are all over 99%.
+
+Have you noticed? 
+
+Even if the model can not detect a single fraud event, the conventional model evaluation method shows a detection rate of 99% or more.
+
+In other words, Existing conventional model evaluation methods do not fit the imbalanced class.
+
+# How we can solve this problem?
+
+There are the number of way to deal with this problem. but i normally use **MCC**. 
 
 I will not explain everything above, but you can get the information you need through Google.
 
