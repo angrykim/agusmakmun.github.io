@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to evaluate imbanaced classfication model"
+title:  "How to evaluate imbanaced classfication models"
 date:   2018-06-11
 categories: [Machine learning]
 ---
@@ -8,7 +8,7 @@ categories: [Machine learning]
 If you have spent some time in applying machine learning, you would have definitely come across imbalanced binary classfication problem
 (class imabalance). 
 
-# What is class imbalance?
+# What is "Class Imbalance"?
 
 > It is the problem in machine learning where the total number of a class of data (positive) is far less than the total number of another class of data (negative). This problem is extremely common in practice and can be observed in various disciplines including fraud detection, anomaly detection, medical diagnosis, oil spillage detection, facial recognition, etc.
 
