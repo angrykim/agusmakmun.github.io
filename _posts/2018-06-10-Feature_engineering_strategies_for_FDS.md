@@ -60,13 +60,7 @@ def get_mu_kappa(time):
 def getCI(input_list, alpha = 0.95):
     mu, kappa = get_mu_kappa(np.array(input_list) * math.pi / 12)
     temp = list(map(lambda x: round(x*12/math.pi, 2) if x*12/math.pi > 0 else round(x*12/math.pi, 2) + 24, vonmises.interval(alpha, kappa, loc=mu, scale=1)))
-    return temp[0]
-
-def getCI_end(input_list, alpha = 0.95):
-    mu, kappa = get_mu_kappa(np.array(input_list) * math.pi / 12)
-    temp = list(map(lambda x: round(x*12/math.pi, 2) if x*12/math.pi > 0 else round(x*12/math.pi, 2) + 24, vonmises.interval(alpha, kappa, loc=mu, scale=1)))
-    return temp[1]    
-    
+    return temp[0], temp[1] 
 ~~~
 
 As you can see the code block above, I implemented the formula intuitively with Python.
