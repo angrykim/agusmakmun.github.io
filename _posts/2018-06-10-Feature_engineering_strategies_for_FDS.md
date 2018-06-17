@@ -13,7 +13,7 @@ If you want to see brief information, Please check his **[blog](https://blog.eas
 
 As the title shows us that this paper introduces various feature engineering strategies for creidt card fraud detection.
 
-Most of features in this paper have been used in the current Fraud Detection System (at least we have already implimented it internally).
+Most of features in this paper have been used in the current Fraud Detection System.
 
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
@@ -67,6 +67,6 @@ As you can see the code block above, I implemented the formula intuitively with 
 
 Using the vonmises of the Python library, you can easily compute the interval of each customer.
 
-Also, using scipy's `circmean`, and `circstd` makes code much easier and more concise than the above code.
+Also, using scipy's `circmean`, and `circstd` makes the code much easier and more concise than the above code.
 
         
