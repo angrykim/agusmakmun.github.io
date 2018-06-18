@@ -42,7 +42,7 @@ So far, It seems really reasonable for us to use so let's implement it in Python
 
 To better understand the code, I splitted it into some specific parts.
 
-+ **Sample code**
++ **Sample(pure) code**
 
 ~~~python
 
