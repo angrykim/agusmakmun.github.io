@@ -2,7 +2,7 @@
 layout: post
 title:  "Useful feature engineering for more than one purpose"
 date:   2018-06-11
-categories: [Machine learning]
+categories: [Feature engineering, Machine learning]
 ---
 
 When you work as a **risk analyst** for the payment service, 
@@ -26,10 +26,10 @@ Let's assume that we have a payment history of three months of credit card users
 
 | <center>Idx</center> | <center>Timestamp</center> | <center>Id</center> | <center>Stat</center> | <center>Amount($)</center> |  <center>...</center> | <center>Fraud</center> |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| **100** | <center> 2018-01-02 01:03:01 </center> | <center> id1 </center> | <center> payment </center> | <center> 300 </center> | <center> ... </center> | <center> Y </center> |
-| **101** | <center> 2018-01-02 01:11:12 </center> | <center> id2 </center> | <center> cancel </center>  | <center> 25 </center>  | <center> ...  </center>| <center> N </center> |
-| **102** | <center> 2018-01-02 02:19:45 </center> | <center> id1 </center> | <center> payment </center> | <center> 100 </center> | <center> ... </center> | <center> Y </center> |
-| **103** | <center> 2018-01-02 02:33:11 </center> | <center> id3 </center> | <center> payment </center> | <center> 260 </center> | <center> ... </center> | <center> N </center> |
+| 100 | <center> 2018-01-02 01:03:01 </center> | <center> id1 </center> | <center> payment </center> | <center> 300 </center> | <center> .. </center> | <center> Y </center> |
+| 101 | <center> 2018-01-02 01:11:12 </center> | <center> id2 </center> | <center> cancel </center>  | <center> 25 </center>  | <center> ..  </center>| <center> N </center> |
+| 102 | <center> 2018-01-02 02:19:45 </center> | <center> id1 </center> | <center> payment </center> | <center> 100 </center> | <center> .. </center> | <center> Y </center> |
+| 103 | <center> 2018-01-02 02:33:11 </center> | <center> id3 </center> | <center> payment </center> | <center> 260 </center> | <center> .. </center> | <center> N </center> |
 
 Suppose you have data with the above attributes so that you can understand this topic without data.
 
