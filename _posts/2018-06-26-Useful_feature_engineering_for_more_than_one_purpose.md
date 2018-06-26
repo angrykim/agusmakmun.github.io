@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Useful feature engineering for more than one purpose"
-date:   2018-06-11
+date:   2018-06-26
 categories: [Feature engineering, Machine learning]
 ---
 
