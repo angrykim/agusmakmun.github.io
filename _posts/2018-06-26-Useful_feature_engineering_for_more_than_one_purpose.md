@@ -25,12 +25,12 @@ So today, I will focus on what features we can have from payment activities of u
 
 Let's assume that we have fllowing payment history logs of three months.
 
-| <center>Idx</center> | <center>Timestamp</center> | <center>Id</center> | <center>Stat</center> | <center>Amount($)</center> |  <center>...</center> | <center>Fraud</center> |
-|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 100 | <center> 2018-01-02 01:03:01 </center> | <center> id1 </center> | <center> payment </center> | <center> 300 </center> | <center> ... </center> | <center> Y </center> |
-| 101 | <center> 2018-01-02 01:11:12 </center> | <center> id2 </center> | <center> cancel </center>  | <center> 25 </center>  | <center> ...  </center>| <center> N </center> |
-| 102 | <center> 2018-01-02 02:19:45 </center> | <center> id1 </center> | <center> payment </center> | <center> 100 </center> | <center> ... </center> | <center> Y </center> |
-| 103 | <center> 2018-01-02 02:33:11 </center> | <center> id3 </center> | <center> payment </center> | <center> 260 </center> | <center> ... </center> | <center> N </center> |
+|   <center>Idx</center>   |   <center>Timestamp</center>   |  <center>Id</center>  |   <center>Stat</center>  |  <center>Amount($)</center>  |    <center>...</center>   |   <center>Fraud</center>  |
+|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
+|   100  |  <center> 2018-01-02 01:03:01 </center>   |  <center> id1 </center>  |   <center> payment </center>   |  <center> 300 </center>   |  <center> ... </center>   |  <center> Y </center>   |
+|   101  |  <center> 2018-01-02 01:11:12 </center>   |  <center> id2 </center>   |  <center> cancel </center>    |  <center> 25 </center>   |   <center> ...  </center> |   <center> N </center>   |
+|   102    |  <center> 2018-01-02 02:19:45 </center>  |   <center> id1 </center>  |  <center> payment </center>   |   <center> 100 </center>  |   <center> ... </center>   |  <center> Y </center>  |
+|    103    |   <center> 2018-01-02 02:33:11 </center>  |   <center> id3 </center>  |   <center> payment </center>   |  <center> 260 </center>   |  <center> ... </center>   |  <center> N </center>   |
 
 Suppose you have data with the above attributes so that you can understand this topic without data.
 
