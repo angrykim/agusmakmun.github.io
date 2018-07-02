@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Feature engineering strategy 1"
+title:  "Feature engineering strategy - 1"
 date:   2018-06-10
 categories: [Statistics]
 ---
