@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Useful feature engineering for more than one purpose"
+title:  "Feature engineering strategy - 2"
 date:   2018-07-02
 categories: [Feature engineering, Machine learning]
 ---
