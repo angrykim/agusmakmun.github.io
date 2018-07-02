@@ -23,7 +23,7 @@ So today, I will focus on what features we can have from payment activities of u
 
 Let's have some example of feature engineering with the fictional payment data set.
 
-![screenshot_1](/static/img/sample_data_image.png)
+![screenshot_1](/static/img/sample_data_image_1.png)
 
 This screenshot shows us the normal pattern of user in the data set 
 
