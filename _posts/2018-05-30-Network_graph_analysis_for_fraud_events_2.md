@@ -82,6 +82,7 @@ Let's compute this sample data set(K=2).
 | **init** | <center> 1/5 </center> | <center> 1/5 </center> | <center> 1/5 </center> | <center> 1/5 </center>  | <center> 1/5 </center> |  <center> 1/5 </center> |
 | **K=1** | <center> 4/15 </center> | <center> 2/5 </center> | <center> 1/6 </center> | <center> 1/10 </center>  | <center> 4/15 </center> | <center> 1/5 </center> |
 
+
 * **Node 0**:  (1/3)X(1/5)+1/5 = 4/15 
 
 * **Node 1**:  (1/5)+(1/5) = 2/5 
@@ -95,10 +96,12 @@ Let's compute this sample data set(K=2).
 * **Node 5**:   1/5
 
 
+
 | <center>K large</center> | <center>Node 0</center> | <center>Node 1</center> | <center>Node 2</center> | <center>Node 3</center> |  <center>Node 4</center> | <center>Node 5</center> |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **K=1** | <center> 4/15 </center> | <center> 2/5 </center> | <center> 1/6 </center> | <center> 1/10 </center>  | <center> 4/15 </center> | <center> 1/5 </center> |
 | **K=2** | <center> 1/10  </center> | <center> 13/30   </center> | <center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> | <center> 1/5 </center> |
+
 
 * **Node 0**:  (1/3)X(1/10)+1/5 = 1/10 
 
@@ -112,10 +115,12 @@ Let's compute this sample data set(K=2).
 
 * **Node 5**:   1/5
 
+
 | <center>K large</center> | <center>Node 0</center> | <center>Node 1</center> | <center>Node 2</center> | <center>Node 3</center> |  <center>Node 4</center> | <center>Node 5</center> |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | **K=2** | <center> 1/10  </center> | <center> 13/30   </center> | <center> 7/30  </center> | <center> 1/5  </center>  | <center> 7/30  </center> |<center> 1/5 </center> |
 | **K=inf** | <center> 0.15  </center> | <center> 0.34  </center> | <center> 0.22  </center> | <center> 0.17  </center>  | <center> 0.1  </center> | <center> 0.02 </center> |
+
 
 No matter how large the value of K is, the **Page Rank** value of the Node has a unique value in the network.
 
