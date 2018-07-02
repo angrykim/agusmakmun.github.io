@@ -35,11 +35,22 @@ Let's pretend that all normal users have the same pattern of the first screensho
 
 What features you can extract from those screenshots? 
 
-# Feature engineering - 1
+As you can see from the bar plot graph, there is a very clear difference between a normal user and a fraudster.
+
+# Feature engineering for payment  
+The normal users use the charged amount several times over a certain period of time, while the fraudsters use the charging amount very quickly with only a few payments. (Same as deposit equition) 
 
 
-# Feature engineering - 2
+# Feature engineering for deposit
+The normal users have long charge cycles, while the fraudsters have very short charge cycles.
+In the above bar plot, there are three simple ways to draw the difference between normal and fraud as a feature.
 
-# How we can solve this problem?
+![screenshot_3](/static/img/difference_feature.png)
+
+# Feature engineering for Royalty
+While the normal users use the payment service steadily, the fraudsters show high activity only for a certain period of time.
+
+![screenshot_4](/static/img/royalty.png)
 
 # Summary
+Feature engineering is the basic concept that data analysts must have in analyzing data. In the analysis of binary data, it is necessary to be able to change class differences to codes or formulas.
