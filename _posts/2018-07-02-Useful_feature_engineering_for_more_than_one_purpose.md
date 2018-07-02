@@ -43,14 +43,17 @@ The normal users use the charged amount several times over a certain period of t
 
 # Feature engineering for deposit
 The normal users have long charge cycles, while the fraudsters have very short charge cycles.
-In the above bar plot, there are three simple ways to draw the difference between normal and fraud as a feature.
+In the above bar plot, there are three simple ways to draw the difference between normal and fraud as a feature. 
+(You can choose one among them)
 
 ![screenshot_3](/static/img/difference_feature.png)
+
 
 # Feature engineering for Royalty
 While the normal users use the payment service steadily, the fraudsters show high activity only for a certain period of time.
 
 ![screenshot_4](/static/img/royalty.png)
+
 
 # Summary
 Feature engineering is the basic concept that data analysts must have in analyzing data. In the analysis of binary data, it is necessary to be able to change class differences to codes or formulas.
