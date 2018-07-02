@@ -38,7 +38,7 @@ What features you can extract from those screenshots?
 As you can see from the bar plot graph, there is a very clear difference between a normal user and a fraudster.
 
 # Feature engineering for payment  
-The normal users use the charged amount several times over a certain period of time, while the fraudsters use the charging amount very quickly with only a few payments. (Same as deposit equition) 
+The normal users use the charged amount several times over a certain period of time, while the fraudsters use the charging amount very quickly with only a few payments. (Same as below equations) 
 
 
 # Feature engineering for deposit
