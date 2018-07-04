@@ -15,7 +15,7 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
 
 - **Global fraud analyst**
 
-    - Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.
+    - `Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.`
     
         - **Individual fraudster** – Traditional Machine Learning(Tree-based) classification model.
             
@@ -25,7 +25,7 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
       
 - **Global abuse analyst**
 
-   - Analyzes various service abuse cases in LINE.
+   - `Analyzes various service abuse cases in LINE`
         
         - **Service abuse detection** - Mobile game bot detection
         
