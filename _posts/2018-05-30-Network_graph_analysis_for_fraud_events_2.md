@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Network graph analysis (2)"
+title:  "Basic graph analytics (2)"
 date:   2018-05-30
 categories: [Network graph analysis]
 ---
