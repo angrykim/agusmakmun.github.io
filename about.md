@@ -25,7 +25,7 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
       
 - **Global abuse analyst**
 
-   - `Analyzes various service abuse cases in LINE`
+   - `Analyzes various service abuse cases in mobile platform`
         
         - **Service abuse detection** - Mobile game bot detection
         
