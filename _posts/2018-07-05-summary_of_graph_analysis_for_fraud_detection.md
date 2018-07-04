@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summary of Graph analysis for fraud detection"
+title:  "Summary of graph analysis for fraud detection"
 date:   2018-07-05
 categories: [Network graph analysis]
 ---
