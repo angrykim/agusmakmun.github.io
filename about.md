@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Ted Kim (Seonmin Kim)
 
-I am an abuse & fraud analyst who loves building things & exploring new ideas.
+I'm an abuse & fraud analyst with over 8 years of technical, project management and leadership experience.
 
-My current Position is Abuse & Fraud analyst (Machine learning engineer) 
+I love building things & exploring new ideas.
 
 ### Global fraud analyst
 
