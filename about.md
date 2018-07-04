@@ -49,3 +49,7 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
 
 - Data analysis, Machine learning, Pattern recognition, statistical analaysis(approach)
 
+
+# 
+
+
