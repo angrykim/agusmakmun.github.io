@@ -5,19 +5,19 @@ date:   2018-07-02
 categories: [Feature engineering, Machine learning]
 ---
 
-When you work as a **risk analyst** in a financial company or mobile payment service provider, 
+When you work as a **Fraud analyst** in a financial company or mobile payment service provider, 
 
-you will perform various tasks such as **fraud risk analysis** with the historical transaction(activity) of customers 
+you will perform various tasks such as **Real-time fraud analysis** with the historical transaction of customers 
 
-as well as generating fraud detection models. 
+as well as **long term fraud analysis**.
 
-It sounds very simillar. However it is different from each other in every way because "Fraud risk analysis" is to calculate the risk score 
+It sounds very simillar. However it is different from each other in every way because **long term fraud analysis** is to calculate the risk score through various features based on the user IDs from a specific period of data.
 
-through various features based on the user IDs from a specific period of data.
+As for  **Real-time fraud analysis**, it requires streaming(real-time) analysis for fast detections, so in the case of us, we normally use 24 hours activities of users to extract the aggreagte features. 
 
-As for FDS, it requires streaming(real-time) analysis for fast detections, so normally we use 24 hours activities of users to extract the aggreagte features. 
+# Why do we need long term fraud analysis?
 
-Why do we need Fraud risk analysis? Although there may be various purposes, In my case, I use it for "Whitelist" purposes to reduce the false positive of FDS. 
+Although there may be various purposes, In my case, I use it for "Whitelist" purposes to reduce the false positive ratio of FDS. 
 
 So today, I will focus on what features we can have from payment activities of users. 
 
