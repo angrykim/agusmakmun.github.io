@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Feature engineering strategy - 2"
+title:  "Feature engineering strategy for long term analysis"
 date:   2018-07-02
 categories: [Feature engineering, Machine learning]
 ---
