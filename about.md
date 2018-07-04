@@ -4,14 +4,11 @@ title: About
 permalink: /about/
 ---
 
-# Ted Kim (Seonmin Kim)
+## Ted Kim (Seonmin Kim)
 
 I am an abuse & fraud analyst who loves building things & exploring new ideas.
 
 My current Position is Abuse & Fraud analyst (Machine learning engineer) 
-
-## Roles and Responsibilities
-
 
 ### Global fraud analyst
 
