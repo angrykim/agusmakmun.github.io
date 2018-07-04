@@ -4,25 +4,33 @@ title: About
 permalink: /about/
 ---
 
-Risk & Payment(fraud) analyst.
+Abuse & Fraud analyst.
 
 Key skills : Data analysis, Machine learning, Pattern recognition
 
-Analyze data(security related logs & payment transactions) and apply machine learning algorithms to detect abnormalities. 
+# Roles and Responsibilities
+## Global fraud analyst
 
-- Credit card & Mobile payment fraud analysis 
+    - Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.
+      1. Individual fraudster – Traditional Machine Learning(Tree-based) classification model.
+      2. Organized crime – Graph analytics for marketing fraud and money laundering.
+      3. Whitelist model – The whitelist processing model through statistical analysis to increase the financial usage limit of the normal user and reduce the false positive ratio of the fraud detection.
+      
 
-- Mobile money transfer analysis for LINE promotion abuse cases
+## Global abuse analyst
 
-- Anti-money laundering by data analysis 
+    -	Analyzes various service abuse cases in LINE.
+      1. Mobile game bot detection
+      2. Security event anomaly detection
 
-- Risk based analysis for credit scoring 
+## Project Management
 
-Good at Classification machine learning application and Network graph analysis
+    -	Reviews & Evaluates performance of third party products related to data analysis and abuse detection.
 
-Risk based user credit scoring 
+## Global Conference Talks
 
-Familiar with e-payment and mobile payment
-
-
-email: ksm28990@gmail.com
+    -	Nexon Developer Conference 2017 (Korea)
+      - Detection of mobile game bot by using traditional machine learning. 
+      
+    -	Elastic On Tokyo 2017 (Japan) – Invited 
+      - Detecting abnormal behavior using data analysis in a large number of server synchronizations.
