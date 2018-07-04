@@ -37,11 +37,11 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
 
 ### Global Conference Talks
    
-- Nexon Developer Conference 2017 (Korea)
+- **Nexon Developer Conference** 2017 (Korea)
         
     - Detection of mobile game bot by using traditional machine learning. 
       
-- Elastic On Tokyo 2017 (Japan) – Invited 
+- **Elastic On** Tokyo 2017 (Japan) – Invited 
     
      - Detecting abnormal behavior using data analysis in a large number of server synchronizations.
 
@@ -50,6 +50,5 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
 - Data analysis, Machine learning, Pattern recognition, statistical analaysis(approach)
 
 
-# 
 
 
