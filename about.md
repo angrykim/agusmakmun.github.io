@@ -8,10 +8,7 @@ permalink: /about/
 
 I am an abuse & fraud analyst who loves building things & exploring new ideas.
 
-Title: Abuse & Fraud analyst (Machine learning engineer) 
-
-Key skills : Data analysis, Machine learning, Pattern recognition
-
+My current Position is Abuse & Fraud analyst (Machine learning engineer) 
 
 ## Roles and Responsibilities
 
