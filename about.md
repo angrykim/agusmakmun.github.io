@@ -4,13 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Abuse & Fraud analyst.
+# Ted Kim (Seonmin Kim)
+
+I am an abuse & fraud analyst who loves building things & exploring new ideas.
+
+Title: Abuse & Fraud analyst (Machine learning engineer) 
 
 Key skills : Data analysis, Machine learning, Pattern recognition
 
+
 ## Roles and Responsibilities
 
-- Global fraud analyst
+
+- **Global fraud analyst**
 
     - Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.
     
@@ -20,7 +26,7 @@ Key skills : Data analysis, Machine learning, Pattern recognition
             
         - **Whitelist model** – The whitelist processing model through statistical analysis to increase the financial usage limit of the normal user and reduce the false positive ratio of the fraud detection.
       
-- Global abuse analyst
+- **Global abuse analyst**
 
    - Analyzes various service abuse cases in LINE.
         
@@ -28,11 +34,11 @@ Key skills : Data analysis, Machine learning, Pattern recognition
         
         - **Anomaly detection** -  Security event anomaly detection
 
-- Project Management
+- **Project Management**
     
     - Reviews & Evaluates performance of third party products related to data analysis and abuse detection.
 
-- Global Conference Talks
+- **Global Conference Talks**
     
     - Nexon Developer Conference 2017 (Korea)
         
@@ -41,3 +47,9 @@ Key skills : Data analysis, Machine learning, Pattern recognition
     - Elastic On Tokyo 2017 (Japan) – Invited 
     
         - Detecting abnormal behavior using data analysis in a large number of server synchronizations.
+
+
+- **Key skills** 
+
+    - Data analysis, Machine learning, Pattern recognition, statistical analaysis(approach)
+
