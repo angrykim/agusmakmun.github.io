@@ -13,40 +13,40 @@ My current Position is Abuse & Fraud analyst (Machine learning engineer)
 ## Roles and Responsibilities
 
 
-- **Global fraud analyst**
+#### Global fraud analyst
 
-    - `Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.`
+- Utilizes various statistical methods to detect Individual and Organized crimes in the mobile payment.
     
-        - **Individual fraudster** – Traditional Machine Learning(Tree-based) classification model.
+     - **Individual fraudster** – Traditional Machine Learning(Tree-based) classification model.
             
-        - **Organized crime** – Graph analytics for marketing fraud and money laundering.
+     - **Organized crime** – Graph analytics for marketing fraud and money laundering.
             
-        - **Whitelist model** – The whitelist processing model through statistical analysis to increase the financial usage limit of the normal user and reduce the false positive ratio of the fraud detection.
+     - **Whitelist model** – The whitelist processing model through statistical analysis to increase the financial usage limit of the normal user and reduce the false positive ratio of the fraud detection.
       
-- **Global abuse analyst**
+#### Global abuse analyst
 
-   - `Analyzes various service abuse cases in mobile platform`
+- Analyzes various service abuse cases in mobile platform
         
-        - **Service abuse detection** - Mobile game bot detection
+     - **Service abuse detection** - Mobile game bot detection
         
-        - **Anomaly detection** -  Security event anomaly detection
+     - **Anomaly detection** -  Security event anomaly detection
 
-- **Project Management**
+#### Project Management
     
-    - Reviews & Evaluates performance of third party products related to data analysis and abuse detection.
+- Reviews & Evaluates performance of third party products related to data analysis and abuse detection.
 
-- **Global Conference Talks**
-    
-    - Nexon Developer Conference 2017 (Korea)
+#### Global Conference Talks
+   
+- Nexon Developer Conference 2017 (Korea)
         
-        - Detection of mobile game bot by using traditional machine learning. 
+    - Detection of mobile game bot by using traditional machine learning. 
       
-    - Elastic On Tokyo 2017 (Japan) – Invited 
+- Elastic On Tokyo 2017 (Japan) – Invited 
     
-        - Detecting abnormal behavior using data analysis in a large number of server synchronizations.
+     - Detecting abnormal behavior using data analysis in a large number of server synchronizations.
 
 
-- **Key skills** 
+#### Key skills
 
-    - Data analysis, Machine learning, Pattern recognition, statistical analaysis(approach)
+- Data analysis, Machine learning, Pattern recognition, statistical analaysis(approach)
 
