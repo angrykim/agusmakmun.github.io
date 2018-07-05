@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Summary of graph analysis for fraud detection"
-date:   2018-07-05
+title:  "Basic graph analytics (4)"
+date:   2018-07-06
 categories: [Network graph analysis]
 ---
 
-Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
+Modularity
 
 The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
 
