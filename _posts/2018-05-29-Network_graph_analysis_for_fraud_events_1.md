@@ -7,7 +7,7 @@ categories: [Network graph analysis]
 
 Before we talked about detection of abuse events in Finance using network graph analysis, Let's take a moment to learn more about network graph as a whole. 
 
-The most commonly used methods for analyzing network graph are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
+The most commonly used methods for graph analytics are **Path lengh**, **centrality**, **Global Clustering Coefficient(GCC)**, **Local Clustering Coefficient(LCC)** and so on.
 
 I will not explain everything above, but you can get the information you need through Google.
 
