@@ -46,7 +46,7 @@ The normal users have long charge cycles, while the fraudsters have very short c
 In the above bar plot, there are three simple ways to draw the difference between normal and fraud as a feature. 
 (You can choose one among them)
 
-![screenshot_3](/static/img/difference_feature.png)
+![screenshot_3](/static/img/different_features.png)
 
 
 # Feature engineering for Royalty
