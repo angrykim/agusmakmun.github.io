@@ -52,7 +52,7 @@ In the above bar plot, there are three simple ways to draw the difference betwee
 # Feature engineering for Royalty
 While the normal users use the payment service steadily, the fraudsters show high activity only for a certain period of time.
 
-![screenshot_4](/static/img/royalty.png)
+![screenshot_4](/static/img/loyalty.png)
 
 
 # Summary
