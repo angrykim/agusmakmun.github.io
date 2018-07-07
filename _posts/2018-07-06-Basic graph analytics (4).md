@@ -5,17 +5,11 @@ date:   2018-07-06
 categories: [Network graph analysis]
 ---
 
-Today, let's talk about a more advanced topic of graph analysis.
+I posted about basic graph analytics before.
 
-I talked about graph analysis in the previous post.
+But sometimes, We need to divide a huge network into a community.
 
-But if one graph is linked to another graph and this graph represents the entire data, 
-
-will the Graph analysis method we have discussed so far apply effectively? 
-
-Is this huge graph only one fraud? 
-
-Which Node is the most effective to detect?
+This is the case.
 
 We need to reduce the size of the indirectly connected network. and that for we use Modularity to divide the network units into community units. 
 
@@ -25,3 +19,8 @@ Please be noted that A network with high modularity points to strong relationshi
 
 Tips: Nomally, In social graph analysis, Over the score of 0.4 modularity, it represents that the network is very well devided. (however, if it is related to fraud data set, it should be at least over 0.6 ) 
 
+![screenshot_1](/static/img/total_network.png)
+
+For example, the one network in the red circle in the above picture is directly connected to the entire network.
+
+Should we analyze these huge networks in a single network unit?
