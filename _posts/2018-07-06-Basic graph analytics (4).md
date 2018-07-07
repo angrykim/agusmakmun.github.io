@@ -21,4 +21,4 @@ We need to reduce the size of the indirectly connected network. and that for we 
 
 Please be noted that modualrity is a score that allows you to consider how valid your community is when you select the number of communities in your entire data set. 
 
-Tips: Nomally, Over the score of 0.4 modularity, it represents that the network is very well devided. 
+Tips: Nomally, In social graph analysis, Over the score of 0.4 modularity, it represents that the network is very well devided. (however, if it is related to fraud data set, it should be at least over 0.6 ) 
