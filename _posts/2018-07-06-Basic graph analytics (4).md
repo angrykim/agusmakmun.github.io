@@ -19,6 +19,9 @@ Which Node is the most effective to detect?
 
 We need to reduce the size of the indirectly connected network. and that for we use Modularity to divide the network units into community units. 
 
-Please be noted that modualrity is a score that allows you to consider how valid your community is when you select the number of communities in your entire data set. 
+Modularity is a measure of the structure of graphical networks. It determines the strength of the network as a whole. It describes how easily a network could be clustered into communities or modules.
+
+Please be noted that A network with high modularity points to strong relationships within the same communities but weaker relationship across different communities. It is one of the fundamental methods used during community detection in graphs. Modularity  nds its applications in a wide range of areas such as social networks, biological networks, and collaboration networks.
 
 Tips: Nomally, In social graph analysis, Over the score of 0.4 modularity, it represents that the network is very well devided. (however, if it is related to fraud data set, it should be at least over 0.6 ) 
+
