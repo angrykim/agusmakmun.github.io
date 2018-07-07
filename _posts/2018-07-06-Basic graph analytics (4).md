@@ -24,3 +24,11 @@ Tips: Nomally, In social graph analysis, Over the score of 0.4 modularity, it re
 For example, the one network in the red circle in the above picture is directly connected to the entire network.
 
 Should we analyze these huge networks in a single network unit?
+
+Of course, it is better for us to divid it into a number of network units(communities) and that for we can analyze each unit and probably find the most important network unit like this. 
+
+![screenshot_2](/static/img/main_netowrk.png)
+
+in this netowrk,  There are three broker nodes and a banker group.
+
+Each broker receives small amount of money from other nodes and delivers the money to the banker group.
