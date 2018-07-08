@@ -38,11 +38,11 @@ nx.draw_networkx(G)
 
 **Total possible connections of each node** can be computed by 
 
-![screenshot_1](/static/img/latex_1.jpg)
+<center><img src="/static/img/latex_1.jpg" width="55%"></center>
 
 **Local Clustering Coefficent(LCC) of each node** can be computed by 
 
-![screenshot_2](/static/img/latex_2.jpg)
+<center><img src="/static/img/latex_2.jpg" width="55%"></center>
 
 The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC)`.
 
@@ -75,7 +75,7 @@ nx.average_clustering(G) #return : 0.4333333...4
 
 The ohter one is to calculate [Transitivity](https://www.sci.unich.it/~francesc/teaching/network/transitivity.html)
 
-![screenshot_3](/static/img/latex_3.png)
+<center><img src="/static/img/latex_3.png" width="55%"></center>
 
 
 + `Approach 2` : Transitivity (Percentage of "open triads" that are triangles in the network)
