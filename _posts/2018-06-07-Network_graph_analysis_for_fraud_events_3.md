@@ -33,7 +33,7 @@ It aims to find the most important nodes in a given network. There may be differ
   
   `n - the total number of nodes in the network.`
   
- ![screenshot_1](/static/img/Density.jpg)
+ <center><img src="/static/img/Density.jpg" width="35%"></center>
 
 * ***What is the purpose of Network density?***
 
