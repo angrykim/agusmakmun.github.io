@@ -37,6 +37,7 @@ I love building things & exploring new ideas.
 - **Nexon Developer Conference** 2017 (Korea)
         
     - Detection of mobile game bot by using traditional machine learning. 
+    
       
 - **Elastic On** Tokyo 2017 (Japan) – Invited 
     
