@@ -38,11 +38,11 @@ nx.draw_networkx(G)
 
 **Total possible connections of each node** can be computed by 
 
-<img src="/static/img/latex_1.jpg" width="45%" height="60%">
+<img src="/static/img/latex_1.jpg" width="65%">
 
 **Local Clustering Coefficent(LCC) of each node** can be computed by 
 
-<img src="/static/img/latex_2.jpg" width="45%" height="60%">
+<img src="/static/img/latex_2.jpg" width="65%">
 
 The reason for obtaining Local Clustering Coefficent (LCC) is to compute `Global Clustering Coefficient(GCC)`.
 
