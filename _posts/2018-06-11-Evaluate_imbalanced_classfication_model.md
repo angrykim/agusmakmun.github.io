@@ -16,7 +16,7 @@ The conventional model evaluation methods do not accurately measure model perfor
 
 Let's take a look at the sample confusion matrix of fraud events. 
 
-![screenshot_1](/static/img/confusion_matrix.jpg)
+<center><img src="/static/img/confusion_matrix.jpg" width="85%"></center>
 
 Normally, When evaluating a binary classfication model, we use `PRECISION`, `RECALL`, and `ACCURACY`.
 
