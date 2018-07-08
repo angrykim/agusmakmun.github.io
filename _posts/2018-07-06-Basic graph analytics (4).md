@@ -5,6 +5,8 @@ date:   2018-07-06
 categories: [Network graph analysis]
 ---
 
+## Network and Community unit 
+
 I posted several topics about **basic graph analytics** before. 
 
 However, Graph analysis technique is very useful when the entire network is categorized into community units in a data set.
