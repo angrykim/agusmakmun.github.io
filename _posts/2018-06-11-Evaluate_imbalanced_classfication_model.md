@@ -34,7 +34,7 @@ In other words, Existing conventional model evaluation methods do not fit the im
 
 There are the number of ways to deal with this problem. but i normally use [Matthews Correlation Coefficient(MCC)](https://en.wikipedia.org/wiki/Matthews_correlation_coefficient). 
 
-![screenshot_3](/static/img/MCC.jpeg)
+<center><img src="/static/img/MCC.jpeg" width="75%"></center>
 
 > The MCC is in essence a correlation coefficient between the observed and predicted binary classifications; it returns a value between −1 and +1. A coefficient of +1 represents a perfect prediction, 0 no better than random prediction and −1 indicates total disagreement between prediction and observation.
 
