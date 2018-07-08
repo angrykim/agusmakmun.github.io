@@ -28,7 +28,7 @@ Let's check the basic concept of `Page Rank algorithm`.
 
 So the above equiation shows how to compute PageRank of a node 
 
-![screenshot_2](/static/img/page_rank_2.jpg)
+<img src="/static/img/page_rank_2.jpg" width="65%">
 
 3 important concepts of PageRank (To become a good person...)
 
@@ -73,7 +73,7 @@ G.add_edges_from([(0, 1),
 nx.draw_networkx(G, arrows=True, **options)
 ~~~
 
-<img src="/static/img/Digraph.jpg" width="65%">
+<img src="/static/img/Digraph.jpg" width="55%">
 
 Let's compute this sample data set(K=2). 
 
