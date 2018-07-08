@@ -52,7 +52,7 @@ In the above bar plot, there are three simple ways to draw the difference betwee
 # Feature engineering for Royalty
 While the normal users use the payment service steadily, the fraudsters show high activity only for a certain period of time.
 
-<center><img src="/static/img/loyalty.png" width="45%"></center>
+<img src="/static/img/loyalty.png" width="45%">
 
 # Summary
 Feature engineering is the basic concept that data analysts must have in analyzing data. In the analysis of binary data, it is necessary to be able to change class differences to codes or formulas.
