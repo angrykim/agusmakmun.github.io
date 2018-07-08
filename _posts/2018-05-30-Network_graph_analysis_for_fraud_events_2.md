@@ -73,7 +73,7 @@ G.add_edges_from([(0, 1),
 nx.draw_networkx(G, arrows=True, **options)
 ~~~
 
-![screenshot_3](/static/img/Digraph.jpg)
+<center><img src="/static/img/Digraph.jpg" width="55%"></center>
 
 Let's compute this sample data set(K=2). 
 
