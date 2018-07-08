@@ -17,7 +17,7 @@ Most of features in this paper have been used in the current Fraud Detection Sys
 
 However, There was an interesting analysis of the payment time, which attracted my attention.
 
-![screenshot_1](/static/img/PeriodicTime1.png)
+<center><img src="/static/img/PeriodicTime1.png" width="75%"></center>
 
 Motivation was as follows. 
 
@@ -32,11 +32,11 @@ So the proposed way is to use **Von-Mises Distribution** to calculate confidence
 
 The von Mises distribution of a subset of transactions made by the same customer is calculated as
 
-![screenshot_2](/static/img/PeriodicTime-Formula2.png)
+<center><img src="/static/img/PeriodicTime-Formula2.png" width="75%"></center>
 
 where and are the periodic mean and periodic standard deviation, respectively. Moreover, the Von Mises distribution is calculated using the first order Bessel function.
 
-![screenshot_3](/static/img/PeriodicTime-Formula3.png)
+<center><img src="/static/img/PeriodicTime-Formula3.png" width="75%"></center>
 
 So far, It seems really reasonable for us to use so let's implement it in Python code.
 
