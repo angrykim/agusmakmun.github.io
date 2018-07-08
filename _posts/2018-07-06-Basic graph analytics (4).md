@@ -27,7 +27,7 @@ Should we analyze these huge networks in a single network unit?
 
 Of course, it is better for us to divid it into a number of network units(communities) and that for we can analyze each unit and probably find the most important network unit like this. 
 
-![screenshot_2](/static/img/main_network.png)
+<center><img src="/static/img/main_network.png" width="75%"></center>
 
 in this netowrk,  There are three broker nodes and a banker group.
 
