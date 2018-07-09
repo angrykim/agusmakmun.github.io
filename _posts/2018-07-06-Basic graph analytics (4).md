@@ -23,7 +23,17 @@ Not at all, It is better for us to divid it into a number of network units(commu
 
 By dividing into community units, we can analyze features of each community and judge wether or not it is fraud.
 
-As a result of analyzing community by applying **[Modularity](https://en.wikipedia.org/wiki/Modularity_(networks))**, Here is the result of communities in the entire network. 
+As a result of analyzing community by applying **Modularity**, Here is the result of communities in the entire network. 
+
+Modularity is defined as the fraction of edges that fall within the given network
+
+## What is Modularity? 
+
+In order to get an insight into the problem of detecting communities in graphs,
+
+1) The paper titled Community detection in graphs by Santo Fortunato at **[link](https://arxiv.org/abs/0906.0612)**
+2) The wikipedia page at **[link](https://en.wikipedia.org/wiki/Modularity_(networks))**
+3) Modularity and community structure in networks by M.E.J. Newman at **[link](http://www.pnas.org/content/103/23/8577)**
 
 <center><img src="/static/img/communities.png" width="75%"></center>
 
