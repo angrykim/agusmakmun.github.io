@@ -7,7 +7,7 @@ categories: [Network graph analysis]
 
 ## Network and Community unit 
 
-I posted several topics about **basic graph analytics** before. 
+I posted several topics about **basic graph analytics [(1)](https://angrykim.github.io/network%20graph%20analysis/2018/05/29/Network_graph_analysis_for_fraud_events_1.html), [(2)](https://angrykim.github.io/network%20graph%20analysis/2018/05/30/Network_graph_analysis_for_fraud_events_2.html), [(3)](https://angrykim.github.io/network%20graph%20analysis/2018/06/07/Network_graph_analysis_for_fraud_events_3.html)** before. 
 
 However, Graph analysis technique is very useful when the entire network is categorized into community units in a data set.
 
@@ -21,12 +21,21 @@ Should we look at these huge networks as a single network?
 
 Not at all, It is better for us to divid it into a number of network units(communities).
 
-By dividing into community units, we can analyze features of each community and judge where or not it is fraud.
+By dividing into community units, we can analyze features of each community and judge wether or not it is fraud.
 
-As a result of analyzing community by applying **Modularity**, I found strong negative patterns in network of `red circle`.
+As a result of analyzing community by applying **[Modularity](https://en.wikipedia.org/wiki/Modularity_(networks))**, Here is the result of communities in the entire network. 
 
-In the next post, I will explain "`Modularity` and `the negative pattern` that I found in the follwoing network. 
+<center><img src="/static/img/communities.png" width="75%"></center>
 
-<center><img src="/static/img/main_network.png" width="75%"></center>
+When modularity is applied, 95 communities can be identified, and the modularity at this time is **0.906**.
 
-Tip: I give you little bit information of `broker` and `banker` in the picture.
+- A number of communities :  `95`
+- Modularity Point :  `0.906`
+
+Generally, in social graph analaysis, it is judged that the modularity is very well classified if it is **0.4 or more**. 
+
+On a graph with a large number of abnormal networks, a very high value such as this time **(0.906)** can be obtained.
+
+
+
+
