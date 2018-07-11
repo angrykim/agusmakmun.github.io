@@ -23,7 +23,25 @@ Not at all, It is better for us to divid it into a number of network units(commu
 
 By dividing into community units, we can analyze features of each community and judge wether or not it is fraud.
 
-As a result of analyzing community by applying **Modularity**, Here is the result of communities in the entire network. 
+As a result of analyzing community by applying **Modularity**, Please look at the following code by networkx and community.
+
+~~~python
+
+import numpy as np
+import pandas as pd
+import networkx as nx
+from community import community_louvain
+
+g = nx.from_pandas_edgelist(df, source='Source', target='Target', edge_attr= 'Weight') 
+partition = community_louvain.best_partition(g, resolution=2.0)
+mod = community_louvain.modularity(partition, g)
+print("modularity:", mod)
+
+# modularity: 0.9107331781739977
+
+~~~
+
+Here is the result of communities in the entire network. 
 
 Modularity is defined as the fraction of edges that fall within the given network
 
@@ -39,14 +57,14 @@ In order to get an insight into the problem of detecting communities in graphs,
 
 <center><img src="/static/img/communities.png" width="75%"></center>
 
-When modularity is applied, 95 communities can be identified, and the modularity at this time is **0.906**.
+When modularity is applied, **85** communities can be identified, and the modularity at this time is **0.911**.
 
-- A number of communities :  `95`
-- Modularity Point :  `0.906`
+- A number of communities :  `85`
+- Modularity Point :  `0.911`
 
 Generally, in social graph analaysis, it is judged that the modularity is very well classified if it is **0.4 or more**. 
 
-On a graph with a large number of abnormal networks, a very high value such like this time **(0.906)** can be obtained.
+On a graph with a large number of abnormal networks, a very high value such like this time **(0.911)** can be obtained.
 
 What is next for analyzing communities? 
 
