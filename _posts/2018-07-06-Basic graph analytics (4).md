@@ -55,7 +55,7 @@ In order to get an insight into the problem of detecting communities in graphs,
 
 3) Modularity and community structure in networks by M.E.J. Newman at **[link](http://www.pnas.org/content/103/23/8577)**
 
-<center><img src="/static/img/communities.png" width="75%"></center>
+<center><img src="/static/img/communities.png" width="85%"></center>
 
 When modularity is applied, **85** communities can be identified, and the modularity at this time is **0.911**.
 
