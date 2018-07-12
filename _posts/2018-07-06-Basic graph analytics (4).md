@@ -62,7 +62,7 @@ When modularity is applied, **85** communities can be identified, and the modula
 - A number of communities :  `85`
 - Modularity Point :  `0.911`
 
-Generally, in social graph analaysis, it is judged that the modularity is very well classified if it is **0.4 or more**. 
+Generally, in social graph analaysis, it is judged that the modularity is very well classified if it is over **0.4**. 
 
 On a graph with a large number of abnormal networks, a very high value such like this time **(0.911)** can be obtained.
 
