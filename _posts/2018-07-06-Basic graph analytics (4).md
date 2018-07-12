@@ -66,9 +66,7 @@ Generally, in social graph analaysis, it is judged that the modularity is very w
 
 On a graph with a large number of abnormal networks, a very high value such like this time **(0.911)** can be obtained.
 
-What is next for analyzing communities? 
-
-I will explain more details later on my blog. 
+Next time, I will post about how to classify and analyze the whole network.
 
 
 
