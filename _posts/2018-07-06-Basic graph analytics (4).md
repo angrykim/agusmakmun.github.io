@@ -68,7 +68,7 @@ On a graph with a large number of abnormal networks, a very high modularity scor
 
 So far, I explained why we need modularity at the initial step of graph analysis.
 
-Next time, I will post about how to classify and analyze the whole network.
+Next time, I will share some ideas about a way how we can analyze networks by clustering.
 
 
 
