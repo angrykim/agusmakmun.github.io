@@ -30,3 +30,6 @@ So I used these processes to figure out the shape of communities in the entire n
     - Diameter - 
   
     - Robin Alexander Clustering  -
+
+3. Apply k-means clustering 
+
