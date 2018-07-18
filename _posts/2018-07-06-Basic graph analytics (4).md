@@ -59,7 +59,7 @@ In order to get an insight into the problem of detecting communities in graphs,
 
 When modularity is applied, **85** communities can be identified, and the modularity at this time is **0.911**.
 
-- A number of communities :  `85`
+- The number of communities :  `85`
 - Modularity Point :  `0.911`
 
 Generally, in social graph analaysis, it is judged that the modularity is very well classified if it is over **0.4**. 
