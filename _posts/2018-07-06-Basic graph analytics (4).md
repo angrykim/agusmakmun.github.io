@@ -66,9 +66,11 @@ Generally, in social graph analaysis, it is judged that the modularity is very w
 
 On a graph with a large number of abnormal networks, a very high modularity score such like this time **(0.911)** can be obtained.
 
-So far, I explained why we need modularity at the initial step of graph analysis.
+## Summary
 
-Next time, I will share some ideas about a way how we can analyze networks by clustering.
+Modularity is widely used as a measure for how good a clustering is. 
+
+You can use it to cluster a given network to a number of communities. 
 
 
 
