@@ -39,11 +39,9 @@ As above, K-means is applied to 6-dimensional data and in order to find appropri
 
 The idea behind elbow method is to run k-means clustering on a given dataset for a range of values of k, and for each value of k, calculate Sum of Squared Errors (SSE).
 
-<img src="/static/img/elbow_method.png" width="45%">
+<img src="/static/img/elbow_method.png" width="55%">
 
-After clustering with K = 5, I checked the community shapes belonging to each group.
-
-<img src="/static/img/communities_color.png" width="65%">
+After clustering with K = 5, The following shape of communities found in the entire network graph. 
 
    - `Gray` - Outcase(88.65%)
   
@@ -54,3 +52,6 @@ After clustering with K = 5, I checked the community shapes belonging to each gr
    - `Blue` - Star shape(2.44%)
    
    - `Light Pink` - Chain shape(1.6%)
+
+<center><img src="/static/img/communities_color.png" width="85%"></center>
+
