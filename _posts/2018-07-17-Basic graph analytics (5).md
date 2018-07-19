@@ -26,16 +26,16 @@ So I used these processes to figure out the shape of communities in the entire n
     
    - `Betweenness centrality` - Mean and standard deviation of the Betweenness of each node.
   
-   - `Global Clustering Coefficient` - Density of connections in each community.
+   - `Degree` - Mean and Standard deviation of node degree in each community.
   
-   - `Average of Path` - Average shortest path length.
-  
-   - `Diameter` - Maximum distance between any pair of nodes.
+   - `Size` - The number of nodes in a community.
+   
+   - `Radius` - The radius is the minimum eccentricity (Distance)
 
 
 ### 3. Apply k-means clustering 
 
-As above, K-means is applied to 4-dimensional data and in order to find appropriate K value, I use [Elbow mehtod](https://en.wikipedia.org/wiki/Elbow_method_(clustering))
+As above, K-means is applied to 6-dimensional data and in order to find appropriate K value, I use [Elbow mehtod](https://en.wikipedia.org/wiki/Elbow_method_(clustering))
 
 The idea behind elbow method is to run k-means clustering on a given dataset for a range of values of k, and for each value of k, calculate Sum of Squared Errors (SSE).
 
