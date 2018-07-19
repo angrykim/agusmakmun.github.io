@@ -17,20 +17,20 @@ So I used these processes to figure out the shape of communities in the entire n
 
 ### 1. Apply Modularity
 
-    - The number of communities : 4,118
+   - The number of communities : 4,118
     
-    - Modularity : 0.9982
+   - Modularity : 0.9982
 
 
 ### 2. Measure the shape of community by 
     
-    - `Betweenness centrality` - Mean and standard deviation of the Betweenness of each node.
+   - `Betweenness centrality` - Mean and standard deviation of the Betweenness of each node.
   
-    - `Global Clustering Coefficient` - Density of connections in each community.
+   - `Global Clustering Coefficient` - Density of connections in each community.
   
-    - `Average of Path` - Average shortest path length.
+   - `Average of Path` - Average shortest path length.
   
-    - `Diameter` - Maximum distance between any pair of nodes.
+   - `Diameter` - Maximum distance between any pair of nodes.
 
 
 ### 3. Apply k-means clustering 
