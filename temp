@@ -21,7 +21,6 @@ So I used these processes to figure out the shape of communities in the entire n
     
    - Modularity : 0.9982
 
-
 ### 2. Measure the shape of community by 
     
    - `Betweenness centrality` - Mean and standard deviation of the Betweenness of each node.
