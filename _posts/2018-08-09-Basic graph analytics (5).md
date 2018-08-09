@@ -19,12 +19,12 @@ As you can see the following graph, It is an example network graph for a week da
 
 <center><img src="/static/img/community_basis_network_1.png" width="85%"></center>
 
-The left picture is a month network graph and the right is the one that i applied "Modularity" to the network graph to figure out how many communities it is. 
+The left picture is the network graph and the right is the same one with Modularity applied. 
 
 
-   - The number of communities : 1,499
-    
-   - Modularity : 0.991
+   - `The number of communities: 1,499` 
+
+   - `Modularity: 0.991`
 
 
 Once we compute the modularity, What's next is to find out the nodes with events of some nature constitute the community.
@@ -35,13 +35,13 @@ I check the event history of the nodes that make up the community.
 
 1. Determine what kinds of event(pay, deposit, transfer, and etc) history we can find in the community like
 
-   - `Transfer ratio` 
+   - `Transfer ratio` - The rate at which Transfer event occurred for each community.
   
-   - `Withdraw ratio` 
+   - `Withdraw ratio` - The rate at which Withdraw event occurred for each community.
   
-   - `Deposit ratio`
+   - `Deposit ratio` - The rate at which Deposit event occurred for each community.
    
-   - `Payment ratio`
+   - `Payment ratio` - The rate at which Payment event occurred for each community.
    
    
 2. Whether or not the nodes has same event sequence
