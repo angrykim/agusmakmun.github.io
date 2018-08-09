@@ -21,21 +21,11 @@ As you can see the following graph, It is an example network graph for a week da
 
 The left picture is a month network graph and the right is the one that i applied "Modularity" to the network graph to figure out how many communities it is. 
 
-### 1. Apply "Modularity"
 
    - The number of communities : 1,499
     
    - Modularity : 0.991
 
-### 2. Event analysis of communities by 
-    
-   - `Transfer ratio` 
-  
-   - `Withdraw ratio` 
-  
-   - `Deposit ratio`
-   
-   - `Payment ratio`
 
 Once we compute the modularity, What's next is to find out the nodes with events of some nature constitute the community.
 
