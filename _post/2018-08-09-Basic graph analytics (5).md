@@ -17,11 +17,11 @@ As for community based analysis, It is based on community classes, not the user 
 
 As you can see the following graph, It is an example network graph for a week data set. 
 
-<img src="/static/img/network_graph_example.png" width="35%">
+<center><img src="/static/img/network_graph_example.png" width="50%"></center>
 
 And this is the same graph divided into community units. 
 
-<img src="/static/img/community_basis_network.png" width="35%">
+<center><img src="/static/img/community_basis_network.png" width="55%"></center>
 
 So I used these processes to figure out the shape of communities in the entire network. 
 
