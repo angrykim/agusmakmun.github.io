@@ -33,7 +33,7 @@ Once we compute the modularity, What's next is to find out the nodes with events
 
 I check the event history of the nodes that make up the community.
 
-**Checkpoint**
+### Checkpoint
 
 1. Determine what kinds of event(pay, deposit, transfer, and etc) history we can find in the community like
 
