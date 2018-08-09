@@ -19,9 +19,7 @@ As you can see the following graph, It is an example network graph for a week da
 
 <center><img src="/static/img/community_basis_network_1.png" width="85%"></center>
 
-And this is the same graph divided into community units. 
-
-So I used these processes to figure out the shape of communities in the entire network. 
+The left picture is a month network graph and the right is the one that i applied "Modularity" to the network graph to figure out how many communities it is. 
 
 ### 1. Apply "Modularity"
 
@@ -38,4 +36,29 @@ So I used these processes to figure out the shape of communities in the entire n
    - `Deposit ratio`
    
    - `Payment ratio`
+
+Once we compute the modularity, What's next is to find out the nodes with events of some nature constitute the community.
+
+I check the event history of the nodes that make up the community.
+
+**Checkpoint**
+
+1. Determine what kinds of event(pay, deposit, transfer, and etc) history we can find in the community like
+
+   - `Transfer ratio` 
+  
+   - `Withdraw ratio` 
+  
+   - `Deposit ratio`
+   
+   - `Payment ratio`
+   
+   
+2. Whether or not the nodes has same event sequence
+
+
+3. Check the User ID's level, such as heavy, mid, light.
+
+
+I'm sure that you will be able to detect not only the community that carried out "marketing fraud", but also set the rules to enable automatic detection.
 
