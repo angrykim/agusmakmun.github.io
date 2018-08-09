@@ -52,5 +52,5 @@ I check the event history of the nodes that make up the community.
 3. Check the User ID's level, such as heavy, mid, light.
 
 
-I'm sure that you will be able to detect not only the community that carried out **"marketing fraud"**, but also set **a rules to enable automatic detection.**
+I'm sure that you will be able to detect not only the community that carried out **"marketing fraud"**, but also set rules to enable automatic detection.**
 
