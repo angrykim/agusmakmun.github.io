@@ -9,7 +9,9 @@ categories: [Network graph analysis]
 
 When analyzing a graph, It is required to divide the network into community units as i explained in the previous post [here](https://angrykim.github.io/network%20graph%20analysis/2018/07/06/Basic-graph-analytics-(4).html)
 
-When figuring out a marketing fruad case in a specific period, One of my favorite ways to analyze network graphs is to conduct analysis on a community basis.
+When figuring out a marketing fruad case in a specific period, 
+
+One of my favorite ways to analyze network graphs is to conduct analysis on a community basis.
 
 For instance, we normally analyze the data by user ID or log event. 
 
