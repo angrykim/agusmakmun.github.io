@@ -63,9 +63,9 @@ Once we compute the modularity, What's the next step is to check the ratio of th
 2. Whether or not the nodes has same event sequence
 
 
-If you have those information, I'm sure that you will be able to detect not only the community that carried out 
+If you have those information, I'm sure that you will be able to detect not only the community that 
 
-**"marketing fraud"**, but also set rules to enable automatic detection.**
+carried out **"marketing fraud"**, but also set rules to enable automatic detection.**
 
 
 
