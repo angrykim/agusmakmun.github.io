@@ -35,15 +35,25 @@ Once we compute the modularity, What's the next step is to check the ratio of th
 
 1. Determine what kinds of event(pay, deposit, transfer, and etc) history we can find in the community like
 
-   - `Transfer ratio` - The percentage of how many transfer events occurred in the community over the same period.
-  
-   - `Withdraw ratio` - The percentage of how many withdraw events occurred in the community over the same period.
-  
-   - `Deposit ratio` - The percentage of how many deposit events occurred in the community over the same period.
+   - `Transfer ratio` 
    
-   - `Payment ratio` - The percentage of how many payment events occurred in the community over the same period.
+        - The percentage of how many transfer events occurred in the community over the same period.
+  
+   - `Withdraw ratio` 
    
-   - `User Grade` - Light, Midieum, Heavy and so on. 
+        - The percentage of how many withdraw events occurred in the community over the same period.
+  
+   - `Deposit ratio` 
+   
+        - The percentage of how many deposit events occurred in the community over the same period.
+   
+   - `Payment ratio` 
+   
+        - The percentage of how many payment events occurred in the community over the same period.
+   
+   - `User Grade` 
+   
+        - Light, Midieum, Heavy and so on. 
    
    
 2. Whether or not the nodes has same event sequence
