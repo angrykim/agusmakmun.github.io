@@ -39,28 +39,29 @@ Once we compute the modularity, What's the next step is to check the ratio of th
    
         - The percentage of how many transfer events occurred in the community over the same period.
   
+  
    - `Withdraw ratio` 
    
         - The percentage of how many withdraw events occurred in the community over the same period.
+  
   
    - `Deposit ratio` 
    
         - The percentage of how many deposit events occurred in the community over the same period.
    
+   
    - `Payment ratio` 
    
         - The percentage of how many payment events occurred in the community over the same period.
    
+   
    - `User Grade` 
    
-        - Light, Midieum, Heavy and so on. 
+        - According to period of use, we can classify users into groups like "Light", "Midieum", and "Heavy". 
    
    
 2. Whether or not the nodes has same event sequence
 
 
-3. Check the User ID's level, such as lgith, mid, heavy.
-
-
-I'm sure that you will be able to detect not only the community that carried out **"marketing fraud"**, but also set rules to enable automatic detection.**
+If you have those information, I'm sure that you will be able to detect not only the community that carried out **"marketing fraud"**, but also set rules to enable automatic detection.**
 
