@@ -29,27 +29,27 @@ The left picture is the network graph and the right is the same one with Modular
    - `Modularity: 0.991`
 
 
-Once we compute the modularity, What's next is to find out the nodes with events of some nature constitute the community.
-
-I check the event history of the nodes that make up the community.
+Once we compute the modularity, What's the next step is to check the ratio of the events that the node has, with the following information, you should check whether it is a fraud or not.
 
 #### - Checkpoint
 
 1. Determine what kinds of event(pay, deposit, transfer, and etc) history we can find in the community like
 
-   - `Transfer ratio` - The rate at which Transfer event occurred for each community.
+   - `Transfer ratio` - The percentage of how many transfer events occurred in the community over the same period.
   
-   - `Withdraw ratio` - The rate at which Withdraw event occurred for each community.
+   - `Withdraw ratio` - The percentage of how many withdraw events occurred in the community over the same period.
   
-   - `Deposit ratio` - The rate at which Deposit event occurred for each community.
+   - `Deposit ratio` - The percentage of how many deposit events occurred in the community over the same period.
    
-   - `Payment ratio` - The rate at which Payment event occurred for each community.
+   - `Payment ratio` - The percentage of how many payment events occurred in the community over the same period.
+   
+   - `User Grade` - Light, Midieum, Heavy and so on. 
    
    
 2. Whether or not the nodes has same event sequence
 
 
-3. Check the User ID's level, such as heavy, mid, light.
+3. Check the User ID's level, such as lgith, mid, heavy.
 
 
 I'm sure that you will be able to detect not only the community that carried out **"marketing fraud"**, but also set rules to enable automatic detection.**
