@@ -38,9 +38,11 @@ where and are the periodic mean and periodic standard deviation, respectively. M
 
 <center><img src="/static/img/PeriodicTime-Formula3.png" width="75%"></center>
 
-So far, It seems really reasonable for us to use so let's implement it in Python code.
+So far, It seems really reasonable for us to use.
 
-To better understand the code, I splitted it into some specific parts.
+so let's implement it in Python.
+
+To better understand the code, I splitted the concept into several parts.
 
 + **Sample(pure) code**
 
@@ -65,7 +67,7 @@ def getCI(input_list, alpha = 0.95):
 
 As you can see the code block above, I implemented the formula intuitively with Python.
 
-Using the vonmises of the Python library, you can easily compute the interval of each customer.
+Using the vonmises of the Python library, you can easily compute the interval of each user(ID).
 
 Also, using scipy's `circmean`, and `circstd` makes the code much easier and more concise than the above code.
 
