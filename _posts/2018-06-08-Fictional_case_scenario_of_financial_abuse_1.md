@@ -24,13 +24,13 @@ Let's check the first fictional scenario of financial abuse case.
 >
 > _2. Charge $5, regardless of the payment amount, when using the first payment service among new users (only the condition 1 is satisfied)._
 
-You should be able to determine that you only need to check the patterns of users registered during the event period. 
+You should be able to determine that you only need to check the patterns of users registered during the marketing event period. 
 
 From my point of view, There are __two approaches__ to find abuser groups. 
 
 ### 1. Draw network graph.
 
-Drawing a network graph for `Money transfer event` will teach you if there is any suspicous `Network node` that can integrate small amount money from the number of account to the one that can withdraw it.  
+Drawing a network graph for `Money transfer event` will teach you if there is any suspicous `Network node` that can collect small amount money from the number of accounts to the one that can withdraw it.  
 
 Let's see the graph that i made up for you to better understand. 
     
