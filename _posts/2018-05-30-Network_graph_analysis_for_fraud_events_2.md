@@ -18,7 +18,7 @@ Acutally, I'm goiing to talk about **Page Rank**.
 
 What is `Page Rank algorithm`?
 
-It was developed by the Google founders when they were thinking about how to measure the importance of webpages using the hyperlink network structure of the web.
+It was developed by the Google founders when they were thinking about how to measure the importance of web-pages using the hyperlink network structure of the web.
 
 But not just only web page, but also any type of network can use **Page Rank** to compute central(important) nodes 
 
@@ -34,12 +34,12 @@ So the above equiation shows how to compute PageRank of a node
 
 *  There are many people that refferred to me as a good person  --> _A larget number of PR(Ti)_
 *  It is much better if the person referred to me as a good person is also a good person in a network --> _Hight PR(Ti)_
-*  It would be good if the person that referred to me as a good person is not pointed to many people as good in a network --> _Low C(Ti)_
+*  It would be the best if the person that referred to me as a good person is not pointed to many people as good in a network --> _Low C(Ti)_
 
 ## Page Rank algorithm:
 
 *  `Assign all nodes a PageRank of 1/n`.
-*  `Each node gives an equal share of its current PageRank to all the nodes it links to`. 
+*  `Each node gives an equal share of its current PageRank to all the nodes which it links to`. 
 
 + **Sample data**
 
