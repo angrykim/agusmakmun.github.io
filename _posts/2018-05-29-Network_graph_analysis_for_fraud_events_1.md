@@ -50,9 +50,9 @@ What is `Global Clustering Coefficient(GCC)`?
 
 It is known that the connections between nodes in the real network have relatively high density of connections, which means nodes in a real network tend to cluster well compared to a random network.
 
-So, In the graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
+So, In Graph theory, `Global Clustering Coefficient(GCC)` is used as a measure of how each node tends to cluster together. 
 
-The first method that we can compute GCC is `Average of LCC` over all nodes in a graph, and this can be easily done with networkx.
+The first method that we can compute GCC is `Average of LCC` over all nodes in a graph, and this can be easily done with the networkx library.
 
 + `Approach 1` : Average LCC over all nodes in the graph using networkx in python.
 
