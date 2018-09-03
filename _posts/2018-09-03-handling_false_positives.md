@@ -65,11 +65,11 @@ For example of the filtering rule for real data.
 
 The filtering (User Removal) Condition - Users who do not satisfy the following conditions can be removed from the data,
 
-- Less than 7 Payment_counts in about 6 months of data
+- `Less than 7 Payment_counts in about 6 months of data`
 
-- The active day was less than 7 days
+- `The active day was less than 7 days`
 
-- Less than 3 Deposit events by bank for about 6 months
+- `Less than 3 Deposit events by bank for about 6 months`
 
 Of course, you'll need to share details about how many users are filtered out in the entire data.
 
