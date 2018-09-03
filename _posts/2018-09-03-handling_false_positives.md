@@ -5,7 +5,7 @@ date:   2018-09-03
 categories: [Network graph analysis]
 ---
 
-## Handling false positives
+## How we can deal with false positives in data analytics?
 
 There are four outcomes of the quality of predictions when data is evaluated.
 
