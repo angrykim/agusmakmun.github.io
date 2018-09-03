@@ -19,9 +19,11 @@ There are four outcomes of the quality of predictions when data is evaluated.
 
 - `False Negative` : These are the positive tuples that were mislabeled as negative 
 
-Let's look at the false positives today.
+Let's look at the false positives and how we can handle it when doing data analytics
 
-I think there are two types of false positives in data analysis.
+I think there are many reasons that can cause "false positive" in data analysis.
+
+I'm going to mention two types that we can normally face in payment fraud and abuse cases. 
 
 ### CASE - 1
 
@@ -41,7 +43,7 @@ In that case, you can whitelist the false positives.
 
 ### CASE - 2
 
-The other one is that false positives happen becase of lack of information. 
+The other one is that **false positives happen becase of lack of information.**
 
 Do not you know what I mean?
 
