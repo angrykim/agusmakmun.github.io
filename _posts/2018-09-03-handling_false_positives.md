@@ -21,7 +21,7 @@ There are four outcomes of the quality of predictions when data is evaluated.
 
 Let's look at the false positives and how we can handle it when doing data analytics
 
-I think there are many reasons that can cause "false positive" in data analysis.
+I think there are many reasons that can cause "false positive" in data.
 
 I'm going to mention two types that we can normally face in payment fraud and abuse cases. 
 
