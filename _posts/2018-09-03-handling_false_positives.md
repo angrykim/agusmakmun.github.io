@@ -23,7 +23,7 @@ Let's look at the false positives today.
 
 I think there are two types of false positives in data analysis.
 
-#### CASE - 1
+### CASE - 1
 
 First, **It happens because it is a pattern matched to the pattern that we generated to detect fraud.**
 
@@ -39,7 +39,7 @@ With every effort, a small number of false positives can still arise.
 
 In that case, you can whitelist the false positives.
 
-#### CASE - 2
+### CASE - 2
 
 The other one is that false positives happen becase of lack of information. 
 
@@ -57,13 +57,13 @@ I am not talking about normalization.
 
 To extract patterns, it is necessary to have a certain history of use, but there are users who do not have enough information.
 
-And because of the lack of information, this case we can not tell whether it is "True" or "False".
+And because of the lack of information, this case we can not tell whether it is **"True"** or **"False".**
 
 In other words, you need more data.
 
 For example of the filtering rule for real data, Users who do not satisfy the following conditions can be removed from the data,
 
-The filtering (User Removal) Conditions.
+###### The filtering (User Removal) Conditions.
 
 - `Less than 7 Payment_counts in about 6 months of data`
 
@@ -72,8 +72,6 @@ The filtering (User Removal) Conditions.
 - `Less than 3 Deposit events by bank for about 6 months`
 
 Of course, you'll need to share details about how many users are filtered out in the entire data.
-
-Depending on the purpose of the data analysis, filtering may not be necessary but may be very important.
 
 Depending on the purpose of the data analysis, filtering may not be necessary but may be very important.
 
