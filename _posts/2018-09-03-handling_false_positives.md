@@ -7,9 +7,23 @@ categories: [Network graph analysis]
 
 ## Handling false positives
 
-When analyzing data or generating a rule to detect fraud cases, you will face false positives. 
+There are four outcomes of the quality of predictions when data is evaluated.
+
+<img src="/static/img/confusion_matrix_1.png" width="65%">
+
+- `True Positive` : These refer to the positive tuples that were correctly labeled by the classifier. 
+
+- `True Negative` : These are the negative tuples that were correctly labeled by the classifier. 
+
+- `False Positive` : These are the negative tuples that were incorrectly labeled as positive
+
+- `False Negative` : These are the positive tuples that were mislabeled as negative 
+
+Let's look at the false positives today.
 
 I think there are two types of false positives in data analysis.
+
+#### CASE - 1
 
 First, **It happens because it is a pattern matched to the pattern that we generated to detect fraud.**
 
@@ -24,6 +38,8 @@ You need to create an accurate model by tuning the algorithm or adding or removi
 With every effort, a small number of false positives can still arise.
 
 In that case, you can whitelist the false positives.
+
+#### CASE - 2
 
 The other one is that false positives happen becase of lack of information. 
 
