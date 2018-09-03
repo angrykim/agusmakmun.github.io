@@ -61,9 +61,9 @@ And because of the lack of information, this case we can not tell whether it is 
 
 In other words, you need more data.
 
-For example of the filtering rule for real data. 
+For example of the filtering rule for real data, Users who do not satisfy the following conditions can be removed from the data,
 
-The filtering (User Removal) Condition - Users who do not satisfy the following conditions can be removed from the data,
+The filtering (User Removal) Conditions.
 
 - `Less than 7 Payment_counts in about 6 months of data`
 
