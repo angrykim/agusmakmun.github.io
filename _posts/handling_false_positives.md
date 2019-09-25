@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Handling false positives"
-date:   2018-09-03
 categories: [Network graph analysis]
 ---
 
