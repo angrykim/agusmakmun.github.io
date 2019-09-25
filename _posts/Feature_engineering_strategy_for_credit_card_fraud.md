@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Feature engineering strategy for credit card fraud "
-date:   2018-06-10
 categories: [Statistics]
 ---
 
