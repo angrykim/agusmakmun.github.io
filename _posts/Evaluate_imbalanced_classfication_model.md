@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to evaluate imbanaced classfication models"
-date:   2018-06-11
 categories: [Machine learning]
 ---
 
